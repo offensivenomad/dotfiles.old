@@ -1,0 +1,6 @@
+#!/bin/bash
+
+URI="$@"
+
+basename "$URI";
+
