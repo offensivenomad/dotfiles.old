@@ -1,0 +1,38 @@
+{
+	"analytics-uuid": "77b0c37d-02d4-4b2d-8687-407bb33901ba",
+	"usage": true,
+	"motd": {
+		"minVersion": "3.0.5"
+	},
+	"motd.fetched": 1577668291888,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "118094673134682151184",
+		"email": "agentoveriide@gmail.com",
+		"email_verified": true,
+		"at_hash": "tS0vUTDrEskotkz4f11iOw",
+		"iat": 1577668309,
+		"exp": 1577671909
+	},
+	"tokens": {
+		"expires_at": 1577671932841,
+		"refresh_token": "1//0g8gDzcmj1R0oCgYIARAAGBASNwF-L9Ir9cDOTvAXzPHnL250QtGxJtiSWFo7nk4ZxFNeGx-LwFiBiVkXyf5-Cr3eHfdqX_LzYXU",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.ImW3B9BuLo8fnRXmooS4WnJeH86AYhmUGPMEW4IhoDF0Fcu68oLQOnZV1oQjtUWZ24AdOUQHQyp4-05GonY5ZM9APJyMGqA6x5bQMjsNrATGW-rnDCWspcVBAoWPKqx1LGIQwI6ZMg",
+		"expires_in": 3600,
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjQ3NDU2YjgwNjllNDM2NWU1MTdjYTVlMjk3NTdkMWE5ZWZhNTY3YmEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE4MDk0NjczMTM0NjgyMTUxMTg0IiwiZW1haWwiOiJhZ2VudG92ZXJpaWRlQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiZjdmZlE0cjQ0TEhQem9lQ0NFZFlCdyIsImlhdCI6MTU3NzY2ODMzMywiZXhwIjoxNTc3NjcxOTMzfQ.mW3kUY_hpkoMWlhdc52lf-pFeqeXMag_8f6UNbE3oAj8bc_rsUswcXQvg0iZMcbOZpCjwpucS20hEfOEaqXZHxsUCpLZVDqAoGmBgGXZB5PlqStHeecElvAHLnpj9mDl6S1X2jidJAy8rwr1gqExivbB6nN9ZeRfM9orSo6xtKzCzsLgbINCvXKDAAuV228ZK8KRXodIGta46RiuL4J69UcskURYb38RsTYnmvgREnscAqJ1JsIe8FiwMdA9xk06JPVh-BwBitpMRkqk7QWt0JleTZRSMd5QFnEjMDy1SKyt4wIAnqEWdwU9TvfJ4nP_AVN7Wok5FilmmAGzQMEh8w"
+	},
+	"activeProjects": {
+		"/mnt/c/Users/fred/projects.io/new-pkct-app": "profile-data-4fbf3"
+	}
+}
