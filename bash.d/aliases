@@ -5,9 +5,9 @@ alias cd..='cd ..'
 alias df='df -h'                          # human-readable sizes 
 alias du='du -hcs'
 alias grep='grep --color=tty -d skip'
-alias la='ls -lah --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
-alias ll='ls -lh --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
-alias ls='ls --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
+alias la='ls -lah --group-directories-first -t -w 5 --color=auto -F'
+alias ll='ls -lh --group-directories-first -t -w 5 --color=auto -F'
+alias ls='ls --group-directories-first -t -w 5 --color=auto -F'
 #alias refresh='xrandr --output eDP1 --mode 2560x1440 --auto'
 
 ## single character aliases 
@@ -104,3 +104,4 @@ alias picocom='sudo picocom'
 alias log='cd /var/log'
 alias nginxdir='cd /etc/nginx'
 alias www='cd /var/www/'
+alias dot='cd $HOME/.dotfiles'
