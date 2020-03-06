@@ -5,9 +5,9 @@ alias cd..='cd ..'
 alias df='df -h'                          # human-readable sizes 
 alias du='du -hcs'
 alias grep='grep --color=tty -d skip'
-alias la='ls -lah --group-directories-first -t -w 5 --color=auto -F'
-alias ll='ls -lh --group-directories-first -t -w 5 --color=auto -F'
-alias ls='ls --group-directories-first -t -w 5 --color=auto -F'
+alias la='ls -lah --group-directories-first -t -w --color=auto -F'
+alias ll='ls -lh --group-directories-first -t -w --color=auto -F'
+alias ls='ls --group-directories-first -t -w --color=auto -F'
 #alias refresh='xrandr --output eDP1 --mode 2560x1440 --auto'
 
 ## single character aliases 
@@ -32,12 +32,12 @@ alias t='sudo nginx -t; sudo systemctl restart nginx.service'
 #alias search='apt search "$1"'
 
 ## Arch Package Manger
-alias install='yay -S --answerclean all --answerdiff none --answeredit none --noconfirm "$@"'
-alias update='yay -Syu'
-alias remove='yay -Rs'
-alias clean='pacman -Rns $(pacman -Qtdq)'
-alias listpkgs="LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h'"
-alias search='yay "$1"'
+#alias install='yay -S --answerclean all --answerdiff none --answeredit none --noconfirm "$@"'
+#alias update='yay -Syu'
+#alias remove='yay -Rs'
+#alias clean='pacman -Rns $(pacman -Qtdq)'
+#alias listpkgs="LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h'"
+#alias search='yay "$1"'
 
 # nano
 alias bb="cd $HOME/.bash.d"
