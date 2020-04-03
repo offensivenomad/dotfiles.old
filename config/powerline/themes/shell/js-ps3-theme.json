@@ -1,0 +1,11 @@
+{
+	"segments": {
+		"left": [
+			{
+        "type": "string",
+        "contents": "Select option",
+        "highlight_groups": ["ps3"]
+			}
+		]
+	}
+}

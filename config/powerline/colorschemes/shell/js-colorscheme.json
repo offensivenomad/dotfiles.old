@@ -1,0 +1,27 @@
+{
+	"groups": {
+    "hostname":           { "fg": "js-bright-white", "bg": "js-bright-blue", "attrs": [] },
+    "user":               { "fg": "js-white", "bg": "js-blue", "attrs": [] },
+    "superuser":          "user",
+    "cwd":                { "fg": "js-bright-black", "bg": "js-white", "attrs": [] },
+    "cwd:current_folder": { "fg": "js-black", "bg": "js-white", "attrs": [] },
+    "cwd:divider":        "cwd",
+		"ps2":                { "fg": "js-black", "bg": "js-white", "attrs": [] },
+		"ps3":								"ps2",
+
+    "gitstatus":                 { "fg": "js-white",          "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_branch":          { "fg": "js-white",          "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_branch_clean":    { "fg": "js-bright-green",   "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_branch_dirty":    { "fg": "js-white",          "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_branch_detached": { "fg": "js-bright-magenta", "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_tag":             { "fg": "js-bright-cyan",    "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_behind":          { "fg": "js-bright-white",   "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_ahead":           { "fg": "js-bright-white",   "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_staged":          { "fg": "js-bright-green",   "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_unmerged":        { "fg": "js-bright-red",     "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_changed":         { "fg": "js-bright-yellow",  "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_untracked":       { "fg": "js-bright-yellow",  "bg": "js-bright-black", "attrs": [] },
+    "gitstatus_stashed":         { "fg": "js-bright-blue",    "bg": "js-bright-black", "attrs": [] },
+    "gitstatus:divider":         { "fg": "js-bright-black",   "bg": "js-bright-black", "attrs": [] }
+	}
+}

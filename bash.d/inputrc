@@ -1,0 +1,26 @@
+#
+#   \`.|\..----...-'`   `-._.-'_.-'`
+#   /  ' `         ,       __.--'
+#   )/' _/     \   `-_,   /
+#   `-'" `"\_  ,_.-;_.-\_ ',     fsc/as
+#       _.-'_./   {_.'   ; /
+#     {_.-``-'         {_/
+#
+#   https://github.com/stringlytyped/dotfiles
+#
+#   INPUTRC
+#   Configures the Readline library used by Bash
+#
+
+# Auto-complete
+# -------------------------------------------------------------- #
+
+# Configure bash's tab-completion to be case-insensitive
+set completion-ignore-case On
+# Treat symlinks like directories when auto completing, so that a / is appended
+set mark-symlinked-directories On
+# Use colour-coding (like ls) when listing possible completions
+set colored-stats On
+
+# Keybindings
+# -------------------------------------------------------------- #

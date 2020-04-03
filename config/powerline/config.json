@@ -1,0 +1,15 @@
+{
+  "common": {
+    "term_truecolor": false
+  },
+  "ext": {
+    "shell": {
+			"colorscheme": "js-colorscheme",
+			"theme": "js-ps1-theme",
+			"local_themes": {
+				"continuation": "js-ps2-theme",
+				"select": "js-ps3-theme"
+			}
+		}
+  }
+}

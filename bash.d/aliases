@@ -5,9 +5,9 @@ alias cd..='cd ..'
 alias df='df -h'                          # human-readable sizes 
 alias du='du -hcs'
 alias grep='grep --color=tty -d skip'
-alias la='ls -lah --group-directories-first -t -w --color=auto -F'
-alias ll='ls -lh --group-directories-first -t -w --color=auto -F'
-alias ls='ls --group-directories-first -t -w --color=auto -F'
+alias la='ls -lah --group-directories-first --color=auto -F'
+alias ll='ls -lh --group-directories-first --color=auto -F'
+alias ls='ls --group-directories-first --color=auto -F'
 #alias refresh='xrandr --output eDP1 --mode 2560x1440 --auto'
 
 ## single character aliases 
@@ -105,4 +105,4 @@ alias log='cd /var/log'
 alias nginxdir='cd /etc/nginx'
 alias www='cd /var/www/'
 alias dots='cd $HOME/.dotfiles'
-alias plin='cd $HOME/.local/lib/python3.6/site-packages/powerline/config_files/'
+alias pline='cd $HOME/.local/lib/python3.6/site-packages/powerline/config_files/'
