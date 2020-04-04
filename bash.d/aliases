@@ -32,12 +32,12 @@ alias t='sudo nginx -t; sudo systemctl restart nginx.service'
 #alias search='apt search "$1"'
 
 ## Arch Package Manger
-#alias install='yay -S --answerclean all --answerdiff none --answeredit none --noconfirm "$@"'
-#alias update='yay -Syu'
-#alias remove='yay -Rs'
-#alias clean='pacman -Rns $(pacman -Qtdq)'
-#alias listpkgs="LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h'"
-#alias search='yay "$1"'
+alias install='yay -S --answerclean all --answerdiff none --answeredit none --noconfirm "$@"'
+alias update='yay -Syu'
+alias remove='yay -Rs'
+alias clean='pacman -Rns $(pacman -Qtdq)'
+alias listpkgs="LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h'"
+alias search='yay "$1"'
 
 # nano
 alias bb="cd $HOME/.bash.d"
@@ -75,10 +75,10 @@ alias wpscan='sudo ruby ~/wpscan/wpscan.rb'
 alias wget="wget --hsts-file ~/dotfiles/config/wget/wget-hsts"
 
 ## File Utils
-#alias cp="sudo -u $USER cp -av"
+alias cp="sudo -u $USER cp -av"
 alias ln="sudo -u $USER ln -s"
 alias mkdir="sudo -u $USER mkdir -p"
-#alias mv='sudo mv'
+alias mv='sudo mv'
 alias rm='sudo rm -r'
 alias touch="sudo -u $USER touch"
 
@@ -99,6 +99,7 @@ alias ipwan='dig +short myip.opendns.com @resolver1.opendns.com'
 alias ufw='sudo ufw'
 alias ip='sudo ip'
 alias picocom='sudo picocom'
+alias dhcpcd='sudo dhcpcd'
 
 ## Locations
 alias log='cd /var/log'
