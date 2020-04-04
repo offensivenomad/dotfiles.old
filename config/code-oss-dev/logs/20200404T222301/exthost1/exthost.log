@@ -1,0 +1,26 @@
+[2020-04-04 22:23:02.952] [exthost] [info] extension host started
+[2020-04-04 22:23:02.972] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-04-04 22:23:02.972] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/debug-auto-launch/out/extension
+[2020-04-04 22:23:02.975] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-04-04 22:23:02.975] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/emmet/out/extension
+[2020-04-04 22:23:03.036] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-04-04 22:23:03.036] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/git/out/main
+[2020-04-04 22:23:03.114] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-04-04 22:23:03.114] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/merge-conflict/out/extension
+[2020-04-04 22:23:03.119] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-04-04 22:23:03.119] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/search-result/out/extension.js
+[2020-04-04 22:23:03.120] [exthost] [info] eager extensions activated
+[2020-04-04 22:23:34.999] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt {"startup":false,"extensionId":{"value":"vscode.grunt","_lower":"vscode.grunt"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2020-04-04 22:23:34.999] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/grunt/out/main
+[2020-04-04 22:23:35.005] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp {"startup":false,"extensionId":{"value":"vscode.gulp","_lower":"vscode.gulp"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2020-04-04 22:23:35.005] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/gulp/out/main
+[2020-04-04 22:23:35.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake {"startup":false,"extensionId":{"value":"vscode.jake","_lower":"vscode.jake"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2020-04-04 22:23:35.009] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/jake/out/main
+[2020-04-04 22:23:35.012] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2020-04-04 22:23:35.012] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/npm/out/main
+[2020-04-04 22:23:35.046] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2020-04-04 22:23:35.046] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/typescript-language-features/out/extension
+[2020-04-04 22:23:50.168] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-04-04 22:23:50.168] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/configuration-editing/out/extension
+[2020-04-04 22:23:50.178] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-04-04 22:23:50.178] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/loki/vscode/extensions/json-language-features/client/out/jsonMain
