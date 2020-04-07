@@ -1,4 +1,4 @@
-file:///home/loki/projects.io/nestCodex/backend/src/profile/schemas/profile.schema.ts {"mtime":1586032405059,"ctime":1586008115294,"size":1238,"etag":"34rbb14r718t","orphaned":false}
+file:///home/loki/projects.io/nestCodex/backend/src/profile/schemas/profile.schema.ts {"mtime":1586244629354,"ctime":1586008115294,"size":1544,"etag":"34rll2neb1ip","orphaned":false}
 import * as mongoose from 'mongoose';
 
 export const ProfileSchema = new mongoose.Schema({
@@ -59,7 +59,7 @@ export const ProfileSchema = new mongoose.Schema({
             reference: Number,
             expiry: Date,
             color: Array,
-            photo: Buffer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+            photo: Buffer 
         },
         tfn: Number,
         abn: [{
@@ -72,6 +72,6 @@ export const ProfileSchema = new mongoose.Schema({
             username: String,
             password: String
         }]
-    }
+    }   
 
 })

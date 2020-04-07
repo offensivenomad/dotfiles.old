@@ -1,0 +1,21 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "main.js" ]
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_extDesc__",
+   "externally_connectable": {
+      "matches": [ "https://pantheon.corp.google.com/*", "https://console.cloud.google.com/*", "https://console.developers.google.com/*", "https://cloudssh.developers.google.com/*", "https://ssh.cloud.google.com/*" ]
+   },
+   "icons": {
+      "128": "gcp_logo_128.png",
+      "48": "gcp_logo_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgeqLGZ5b9lpF/UiyPNcJ49q38ZMUcK1CaOo1IE2Xa+si8F70qDgiUjgYSuvUd9KvK7imOXKU4O9x5bD0o+G6wHDsNsJhYvkw01cYw3YsEDep7MMmSoG4pnQT4g674hEvH5WZ40RHPOkAb3tFqVUGy0Uzgtbzaaisno+8vbJh+Jt0Pv4rcAJjOaDqSlpB267Xrl4r53SRHbcOByqjuMnOv62mF6aiHuaOve2tYR0SNsg078e7Z7Ddz2Zv5A3bo1CYs2++/RUU9pvovpI14djRKrorUAmwB8aXOVz+T4c+tQOOv/SOcl7dW+HKe7HfkJNz/wC8QWv1wleiezpERklJrwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "clipboardRead", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.13.1"
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>select-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="select-icon">
+            <g id="select-icon-copy">
+                <g id="Rectangle-4-Copy">
+                    <use fill="" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="" stroke-width="0.5" x="0.25" y="0.25" width="27.5" height="27.5" rx="3"></rect>
+                </g>
+                <g id="Group-8" transform="translate(7.000000, 7.000000)" stroke="#44474B">
+                    <g id="Group-7">
+                        <rect id="Rectangle-7" stroke-width="0.7" x="0.35" y="0.35" width="13.4666667" height="13.4666667" rx="3"></rect>
+                        <g id="Group-6" transform="translate(10.593443, 10.058926) rotate(-45.000000) translate(-10.593443, -10.058926) translate(7.593443, 6.558926)" stroke-linecap="square" stroke-width="0.84">
+                            <path d="M2.625,0.303030303 L2.625,6.36363636" id="Line"></path>
+                            <polyline id="Line-Copy" points="0 3.05417562 2.66708514 1.13686838e-13 5.282308 3.05417562"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

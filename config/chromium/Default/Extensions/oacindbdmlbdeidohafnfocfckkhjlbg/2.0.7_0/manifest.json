@@ -1,0 +1,40 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "pericles@alexandrucalin.me"
+      }
+   },
+   "background": {
+      "scripts": [ "background-vendors.js", "background-bundle.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icon/128-on.png",
+         "16": "icon/16-on.png",
+         "32": "icon/32-on.png",
+         "96": "icon/96-on.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Pericles: Text to speech Screen Reader"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "content-vendors.js", "content-bundle.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Web-page TTS (text to speech) screen reader, that does not require cutting and pasting sentences or entire page sections",
+   "homepage_url": "http://pericles.alexandrucalin.me",
+   "icons": {
+      "128": "icon/128-on.png",
+      "16": "icon/16-on.png",
+      "32": "icon/32-on.png",
+      "96": "icon/96-on.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuRHQW8oB9pYS3oJHOQH/D3afF5GdDL19O4mpoudg5pGdqtEg5TdVhIy+RDaZN42DusJq7aHrS2vc4PAR+29rXzv29NHcVlkNR1B5pyP/JLN9tsfnTXLFo9XuCep7JVPCFJIOTdXM2HfaWD+qb2PVBQB8w9Ih+bpOt4KFFwytFjleyqFd/zedgNyG6AMzMviQ9GtkUTuF4Ul3/F0jiYUfT8VxdMqzM+ViHo1LlNlfigcU4hq0ePKMJprRJf9ESqHs4uXd4WMCrJjp/7CMPFqh2yZ923KaHpLvRfywssuSM6D6CMGGt+0tQB5Knbk+nReDiouXF84APs9kpca9djF3LQIDAQAB",
+   "manifest_version": 2,
+   "name": "Pericles: Text to Speech Screen Reader",
+   "permissions": [ "activeTab", "storage", "contextMenus", "tts", "ttsEngine" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.7"
+}

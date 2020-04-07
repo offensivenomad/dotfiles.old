@@ -1,0 +1,22 @@
+{
+   "content_scripts": [ {
+      "js": [ "javascript/storage.js", "javascript/script.js", "lib/jquery/dist/jquery.min.js", "lib/lodash/dist/lodash.min.js" ],
+      "matches": [ "https://console.cloud.google.com/*", "https://*.appspot.com/_ah/datastore_admin*", "https://app.google.stackdriver.com/*" ]
+   } ],
+   "description": "Show a warning when viewing a production environment in the Google Cloud Console, Datastore admin or Stackdriver.",
+   "icons": {
+      "128": "images/icon128x128.png",
+      "16": "images/icon16x16.png",
+      "48": "images/icon48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgUVOnXGzVW6525ZZgyhYeLmD2bW2Fp0MVjpU7YUMvZk4WVpnWN2AHgfomczo8ZhDjf2JeKJXPGFW2qCxK4MeWfYB6Frc1N/XWDpZM7uwPZU5DDcAv51A2RmWYW/IvtauduBl6zq+szK21zuUFYcPpoxa35aZsEWtRTTZh48Xo1fBcays4rRkzKMUGO3Ia4k69gWKHG7Kx6pGEL6FNpt1oQeKnYF+DzbqQmlvrylQO52h5Nf2Jk3WWhhc72v5jz5P9X8PqzVOPHE82X2tvlw61JjUtXSntbDTrXb3tVgm14pHJP/ZKWlMY2XxW01dKmRwe5a4P6oDz1CResvRSe8ZRwIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Cloud Console Production Warning",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "activeTab", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.3"
+}

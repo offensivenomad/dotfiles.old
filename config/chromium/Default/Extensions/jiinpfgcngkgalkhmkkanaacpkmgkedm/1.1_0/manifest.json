@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "keycodes.js", "tabs.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "SpeakSel19.png",
+      "default_title": "Speak Selection"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "keycodes.js", "content_script.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Speaks the current selection out loud.",
+   "icons": {
+      "128": "SpeakSel128.png",
+      "16": "SpeakSel16.png",
+      "256": "SpeakSel256.png",
+      "48": "SpeakSel48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkYmEpw/APn1DM6SzPl+4rsWMZ3qLmePh49oKDZRK0NKHOzsIn9DLKPg/VmrgpoiMMklaxgbbjgFF4An30w0zYU2c7uel/1OtkHTpxiuWNSjgkAmvUFrjUgsHFBBEbbNem6wzrwMvwqT1N9gXfq8HPsaJ2/u63KfArGAzLh/cRxlq0D88BURN+EyW8ffslb5xWoNRNM+yifn0LDu3rneyBP8utEH2YdipJRDl4ovDiSayKp6AcVWQnOhziXQ0UU+n8xtt4pOydt0tuahrlfMA6dAlfMir0hmR0v7Vi5h8euENzHECCBjDZPJ5o/W/BvCpm4vDAlzaep2e+oBEsTrGnwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "14",
+   "name": "Speak Selection",
+   "options_page": "options.html",
+   "permissions": [ "\u003Call_urls>", "tts", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

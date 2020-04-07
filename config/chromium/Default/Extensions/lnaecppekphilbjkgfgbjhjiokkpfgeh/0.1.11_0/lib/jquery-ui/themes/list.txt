@@ -1,0 +1,35 @@
+ Volume in drive C is Windows 10
+ Volume Serial Number is DED9-BF32
+
+ Directory of C:\Dev\Projects\Speak\lib\jquery-ui\themes
+
+04/15/2017  11:23 PM    <DIR>          .
+04/15/2017  11:23 PM    <DIR>          ..
+03/31/2017  04:08 PM    <DIR>          base
+03/31/2017  04:09 PM    <DIR>          black-tie
+03/31/2017  04:09 PM    <DIR>          blitzer
+03/31/2017  04:08 PM    <DIR>          cupertino
+03/31/2017  04:08 PM    <DIR>          dark-hive
+03/31/2017  04:09 PM    <DIR>          dot-luv
+03/31/2017  04:08 PM    <DIR>          eggplant
+03/31/2017  04:09 PM    <DIR>          excite-bike
+03/31/2017  04:08 PM    <DIR>          flick
+03/31/2017  04:09 PM    <DIR>          hot-sneaks
+03/31/2017  04:09 PM    <DIR>          humanity
+03/31/2017  04:08 PM    <DIR>          le-frog
+04/15/2017  11:23 PM                 0 list.txt
+03/31/2017  04:09 PM    <DIR>          mint-choc
+03/31/2017  04:08 PM    <DIR>          overcast
+03/31/2017  04:08 PM    <DIR>          pepper-grinder
+03/31/2017  04:08 PM    <DIR>          redmond
+03/31/2017  04:08 PM    <DIR>          smoothness
+03/31/2017  04:08 PM    <DIR>          south-street
+03/31/2017  04:08 PM    <DIR>          start
+03/31/2017  04:08 PM    <DIR>          sunny
+03/31/2017  04:09 PM    <DIR>          swanky-purse
+03/31/2017  04:09 PM    <DIR>          trontastic
+03/31/2017  04:08 PM    <DIR>          ui-darkness
+03/31/2017  04:08 PM    <DIR>          ui-lightness
+03/31/2017  04:09 PM    <DIR>          vader
+               1 File(s)              0 bytes
+              27 Dir(s)  52,186,734,592 bytes free

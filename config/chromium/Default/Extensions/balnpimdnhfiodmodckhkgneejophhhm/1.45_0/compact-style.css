@@ -1,0 +1,70 @@
+/* GROUPS SECTION */
+.extDescription {
+	display: none;
+}
+
+.group-card-content {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+#groupHeader {
+	height: 0px;
+}
+
+/* ACTIVE / INACTIVE */
+.extension-card-content {
+	padding: 5px 0 !important;;
+}
+
+.card:first-of-type {
+	margin-bottom: 20px !important;
+}
+
+#activeTitle,
+#inactiveTitle {
+	line-height: initial;
+	font-size: 20px;
+}
+
+#activeCount,
+#inactiveCount {
+	font-size: 20px;
+	line-height: initial;
+}
+
+.picHolder {
+	margin-top: 0px;
+}
+
+.picHolder img {
+	width: 30px;
+	height: 30px;
+}
+
+.extName {
+  font-size: 15.5px;
+}
+
+.nameDesc {
+	margin-left: 1%;
+  margin-top: 4px;
+}
+
+.extBlock {
+	padding: 0 15px;
+  margin: 2px 0;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+	left: 14px;
+}
+
+.ext-links .description {
+	display: initial;
+	font-size: 0.95rem;
+}
+
+
+
+

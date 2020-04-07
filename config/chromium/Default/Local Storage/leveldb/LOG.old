@@ -1,0 +1,6 @@
+2020/04/07-07:17:17.138 84c Reusing MANIFEST /home/loki/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/04/07-07:17:17.138 84c Recovering log #89
+2020/04/07-07:17:17.139 84c Reusing old log /home/loki/.config/chromium/Default/Local Storage/leveldb/000089.log 
+2020/04/07-09:40:09.553 24026 Level-0 table #93: started
+2020/04/07-09:40:09.577 24026 Level-0 table #93: 76803 bytes OK
+2020/04/07-09:40:09.581 24026 Delete type=0 #89

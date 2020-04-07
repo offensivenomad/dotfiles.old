@@ -1,0 +1,264 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#tabs {
+     width:600px;
+     height:590px;
+     overflow:hidden
+}
+
+#tabs_tts {
+    padding: 2px;
+}
+#tabs_sites {
+    padding: 2px;
+}
+#tabs_settings{
+    padding: 2px;
+}
+#tabs_news {
+    padding: 2px;
+}
+#tabs_about{
+    padding: 2px;   
+}
+#tab_books{
+    padding: 4px;   
+}
+
+*:focus {
+    outline: none;
+}
+
+.ui-dialog .ui-dialog-title {
+  text-align: center;
+  width: 100%;
+}
+
+#tab_books_list 
+{ 
+    list-style-type: none; margin: 0; padding: 0; 
+}
+#tab_books_list li {
+     margin: 4px 4px; padding: 4px; float: left; width: 126px; text-align: center; 
+}
+#tab_books_list .title {
+     cursor: pointer;
+     font-size: 12px; 
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+}
+#tab_books_list .authors {
+     cursor: pointer;
+     font-size: 10px; 
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#tab_books_list img {
+     cursor: pointer;
+     margin: 4px;
+    width: 80px; height: 108px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#tab_books_list .buttons {
+    position: relative; 
+    top: -8px;
+    right: 8px; 
+    float: right;
+    white-space: nowrap;
+    margin-bottom: -60px;
+}
+#tab_books_list .button {
+    padding: 4px;
+    margin: 1px;
+    opacity: 0.9;
+    font-size: 9pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#tab_books_list button:hover {
+    opacity: 1.0;
+}
+#tab_books_list .site {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 8px;
+    margin: 42px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+fieldset
+{
+    width: 95%;
+    border: 1px solid #abd;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 4px;
+    padding-left: 8px;
+}
+legend
+{
+    padding: 4px 4px;
+    border: 1px solid #abd;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.ui-width-100{
+    width:100%;
+}
+
+.ui-width-99{
+    width:99%;
+}
+
+.ui-padding-small {
+    padding: 4px;
+}
+
+.ui-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+#edit-sites-template{
+    /* font-family: monospace; */
+    /* font-size: medium; */
+    white-space: nowrap;
+    height: 100%;
+}
+
+.ui-message-box {
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+#list_settings_themes-menu{
+    max-height: 432px;
+}
+#list_settings_themes-menu li {
+    border: 1px solid transparent;
+}
+
+#lab_settings_tts_rate, #lab_settings_tts_volume{
+    width:40px;
+    display: inline-block
+}
+#bar_settings_tts_volume {
+    width: 200px;
+    display: inline-block
+}
+#bar_settings_tts_rate {
+    width: 200px;
+    display: inline-block
+}
+
+#lst_book_lang-menu {
+    max-height: 216px;
+}
+.ui-selectmenu-menu .ui-menu {
+    max-height: 270px;
+}
+.ui-menu-item-wrapper {
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.ui-settings-section h4{
+    margin: 4px;
+}
+.ui-settings-block{
+    margin-left: 25px;
+    padding: 4px;
+}
+
+#box_tts_text{
+    height:100%;
+    overflow: auto;
+}
+
+#dlg_settings_voices{
+    padding: 0px;
+}
+
+.ui-verticel-gap {
+    margin-top: 4px;
+}
+
+span.ui-selectmenu-button{
+    padding: 4px 8px;
+}
+
+button.ui-button {
+    padding: 8px 10px;
+}
+button.ui-button-icon-only {
+    width: 30px;
+    height: 30px;
+}
+
+#tbl-sites-import-templates {
+    text-align: center;
+    white-space: nowrap;
+    cursor: default;
+    border-collapse: collapse;
+}
+#tbl-sites-import-templates th, #tbl-sites-import-templates td {
+    padding: 2px;
+}
+#tbl-sites-import-templates tr:nth-child(even) {
+    background: #fff
+}
+
+#icon-site-states{
+    list-style-type: none; 
+    margin: 0; padding: 0; 
+    display: inline-block;
+}
+
+#icon-site-states li {
+    float: left;
+    padding: 3px;
+    margin-right: 4px;
+}
+
+#about-shares {
+    list-style-type: none; 
+    margin: 0; padding: 0; 
+    display: inline-block;
+    width: 100%;
+}
+
+#about-shares li {
+    float: left;
+    padding: 8px;
+    margin-right: 4px;
+}
+
+#tabs_tutorial ol{
+    padding-left: 25px;
+}
+#tabs_tutorial li {
+    padding-bottom: 4px;
+}
+.tutorial_image {
+    margin: 4px;
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.news_img {
+    margin: 4px;
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

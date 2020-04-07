@@ -1,24 +1,37 @@
-yarn
-
-config/go
-config/code-oss-dev/logs
-config/pulse
-config/yay
-
-config/Code\ -\ Insiders/Cache
-config/Code\ -\ Insiders/CachedData
-config/Code/Cache
-config/Code/CachedData
+config/*
 config/chromium
 
+#config/Code/*
+!config/Code/Backups
+!config/Code/Dictionaries
+!config/Code/User
 
-.config/go
-.config/code-oss-dev/logs
-.config/pulse
-.config/yay
+#'config/Code - Insiders/*'
+!'config/Code - Insiders/Backups'
+!'config/Code - Insiders/Dictionaries'
+!'config/Code - Insiders/User'
 
-.config/Code\ -\ Insiders/Cache
-.config/Code\ -\ Insiders/CachedData
-.config/Code/Cache
-.config/Code/CachedData
-.config/chromium
+!config/configstore
+!config/dconf
+!config/dunst
+!config/gconf
+!config/gsimplecal
+!config/gtk-2.0
+!config/gtk-3.0
+!config/gxkb
+!config/htop
+!config/i3blocks
+!config/i3lock
+!config/menus
+!config/neofetch
+!config/powerline
+!config/rofi
+!config/systemd
+!config/tabtab
+!config/termite
+!config/Thunar
+!config/wallpapers
+!config/mimeapps.list
+!config/pavucontrol.ini
+
+

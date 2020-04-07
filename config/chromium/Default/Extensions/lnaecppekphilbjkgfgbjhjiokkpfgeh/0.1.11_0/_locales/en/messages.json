@@ -1,0 +1,638 @@
+{
+   "btn_feedback": {
+      "message": "Feedback"
+   },
+   "btn_feedback_title": {
+      "message": "Open to extension feedback page"
+   },
+   "btn_settings_tts_languages": {
+      "message": "Manage templates"
+   },
+   "btn_settings_tts_templates": {
+      "message": "Manage Templates"
+   },
+   "btn_sites_create_title": {
+      "message": "Create a new site tmplate from the current tab.."
+   },
+   "btn_sites_example_title": {
+      "message": "Open a sample article page of this site.."
+   },
+   "btn_sites_import_title": {
+      "message": "Import the site template for the current tab from server.."
+   },
+   "btn_sites_publish_title": {
+      "message": "Publish this site template to server.."
+   },
+   "btn_sites_remove_title": {
+      "message": "Remove this site template.."
+   },
+   "btn_sites_try_title": {
+      "message": "Test this site template on current tab.."
+   },
+   "btn_test_this_template_title": {
+      "message": "Test this template.."
+   },
+   "btn_tts_article_title": {
+      "message": "Read the article.."
+   },
+   "btn_tts_grant": {
+      "message": "Grant OAuth2 access.."
+   },
+   "btn_tts_issues": {
+      "message": "Report an issue.."
+   },
+   "btn_tts_paragraph_title": {
+      "message": "Read the paragraph.."
+   },
+   "btn_tts_selection_title": {
+      "message": "Read the selection.."
+   },
+   "btn_tts_signin": {
+      "message": "Sign in to Chrome.."
+   },
+   "btn_tts_subscribe": {
+      "message": "Please subcribe 'TTS Scribd Reader' .."
+   },
+   "btn_tts_template": {
+      "message": "Update the template.."
+   },
+   "btn_use_this_template_title": {
+      "message": "Use this template.."
+   },
+   "command_start_reading": {
+      "message": "Start reading book"
+   },
+   "command_stop_reading": {
+      "message": "Stop reading book"
+   },
+   "confirm_app_subscription": {
+      "message": "Warning: $msg$\n\nPlease visit 'Chrome Web Store' site to get license by subscribing to 'TTS Scribd Reader', with the subscription you will have full access to this extension and get the latest update.",
+      "placeholders": {
+         "msg": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirm_create_site": {
+      "message": "Site '$host$' is not found, do you want to create it now?",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirm_granted_oauth2": {
+      "message": "'TTS Scribd Reader' needs permission to verify your license.\nPlease click on 'OK' to grant OAuth2 to 'TTS Scribd Reader' extension.\n\nNeed help? Please visit online tutorial:\nhttps://github.com/ttsreadit/ttsreadit/wiki/oauth2"
+   },
+   "confirm_sign_in_to_chrome": {
+      "message": "'TTS Scribd Reader' needs permission to verify your license.\nPlease click on 'OK' to sign in to Chrome with your Google account.\n\nNeed help? Please visit online tutorial:\nhttps://github.com/ttsreadit/ttsreadit/wiki/oauth2"
+   },
+   "dialog_import_site_template": {
+      "message": "Import site template: '$host$'",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         }
+      }
+   },
+   "dialog_title_update_user_info": {
+      "message": "Update User Info"
+   },
+   "dialog_update_user_info_desc": {
+      "message": "To save your site templates, please update your user info:"
+   },
+   "edit_sites_search": {
+      "message": "Enter a host name and press enter to search"
+   },
+   "error_article_no_template": {
+      "message": "Warning: 'TTS Scribd Reader' failed to retrieve site template from server,\n\nPlease check your internet connection, then try again."
+   },
+   "error_connection_refused": {
+      "message": "Connection refusued. Host: '$host$'",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_get_article": {
+      "message": "Failed to get article, error: '$err$'",
+      "placeholders": {
+         "err": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_load_site_template": {
+      "message": "Failed to get site template, site:'$host$', error:'$err$'",
+      "placeholders": {
+         "err": {
+            "content": "$2"
+         },
+         "host": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_no_site_template": {
+      "message": "There is no site template '$host$'. Please click on popup icon to report this issue",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_parse_article": {
+      "message": "Failed to parse article: '$err$'",
+      "placeholders": {
+         "err": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_parse_json": {
+      "message": "Failed to parse JSON data, error: '$err$', JSON: '$json$'",
+      "placeholders": {
+         "err": {
+            "content": "$1"
+         },
+         "json": {
+            "content": "$2"
+         }
+      }
+   },
+   "error_site_not_found": {
+      "message": "Site not found."
+   },
+   "extDesc": {
+      "message": "Powered by Google TTS (Text to Speech), turns your Scribd e-books into audible books"
+   },
+   "extName": {
+      "message": "TTS Reader: Speak Scribd Books Aloud"
+   },
+   "icon_sites_official_title": {
+      "message": "This is an official template"
+   },
+   "icon_sites_published_title": {
+      "message": "The site template is published already"
+   },
+   "icon_sites_verified_title": {
+      "message": "The site template is verified already"
+   },
+   "issue_auth_page_not_loaded": {
+      "message": "Authorization page could not be loaded."
+   },
+   "issue_incorrect_fields": {
+      "message": "There are incorrect fields: '$fields$'",
+      "placeholders": {
+         "fields": {
+            "content": "$1"
+         }
+      }
+   },
+   "issue_license_is_expired": {
+      "message": "Your 'TTS Scribd Reader' license has expired."
+   },
+   "issue_no_license": {
+      "message": "You don't have 'TTS Scribd Reader' license."
+   },
+   "issue_no_site_template": {
+      "message": "There is no template for this site."
+   },
+   "issue_oauth2_not_granted": {
+      "message": "OAuth2 not granted or revoked."
+   },
+   "issue_user_not_sign_in": {
+      "message": "The user is not signed in."
+   },
+   "label_author": {
+      "message": "Author"
+   },
+   "label_body": {
+      "message": "Body"
+   },
+   "label_cancel": {
+      "message": "Cancel"
+   },
+   "label_close": {
+      "message": "Close"
+   },
+   "label_confirm": {
+      "message": "Confirm"
+   },
+   "label_copyrights": {
+      "message": "Copyright 2017 Web Gadgets Inc. All rights reserved."
+   },
+   "label_current_tab": {
+      "message": "Current tab:"
+   },
+   "label_false": {
+      "message": "false"
+   },
+   "label_host": {
+      "message": "Host:"
+   },
+   "label_import_actions": {
+      "message": "Actions"
+   },
+   "label_import_goods_fails": {
+      "message": "Goods/Fails"
+   },
+   "label_import_official": {
+      "message": "Official"
+   },
+   "label_import_siteid": {
+      "message": "Id"
+   },
+   "label_import_updatedtime": {
+      "message": "Updated time"
+   },
+   "label_import_username": {
+      "message": "Username"
+   },
+   "label_issue_enable_feedback": {
+      "message": "Also copy the issue detail, then paste on 'TTS Scribd Reader' feedback page."
+   },
+   "label_issue_no_template": {
+      "message": "Site template is missing"
+   },
+   "label_issue_other_issues": {
+      "message": "Other issues"
+   },
+   "label_issue_url": {
+      "message": "Page url:"
+   },
+   "label_issue_wrong_template": {
+      "message": "Site template is wrong"
+   },
+   "label_issue_wrong_template_author": {
+      "message": "Author is wrong"
+   },
+   "label_issue_wrong_template_body": {
+      "message": "Body is wrong"
+   },
+   "label_issue_wrong_template_language": {
+      "message": "Language is wrong"
+   },
+   "label_issue_wrong_template_time": {
+      "message": "Time is wrong"
+   },
+   "label_issue_wrong_template_title": {
+      "message": "Title is wrong"
+   },
+   "label_issues": {
+      "message": "Issues:"
+   },
+   "label_language": {
+      "message": "Language"
+   },
+   "label_no": {
+      "message": "no"
+   },
+   "label_notes": {
+      "message": "Note:"
+   },
+   "label_ok": {
+      "message": "OK"
+   },
+   "label_reading": {
+      "message": "Reading:"
+   },
+   "label_report_an_issue": {
+      "message": "Report an issue"
+   },
+   "label_saved_sites": {
+      "message": "Saved sites:"
+   },
+   "label_settings_appearance": {
+      "message": "Appearance:"
+   },
+   "label_settings_popup_enable": {
+      "message": "Show popup translation when text selected."
+   },
+   "label_settings_theme": {
+      "message": "Choose a theme:"
+   },
+   "label_settings_translation": {
+      "message": "Automatic translation:"
+   },
+   "label_settings_translation_key": {
+      "message": "Combined with key:"
+   },
+   "label_settings_translation_key_none": {
+      "message": "None"
+   },
+   "label_settings_translation_language": {
+      "message": "Choose my language:"
+   },
+   "label_settings_translation_popup": {
+      "message": "Popup translation:"
+   },
+   "label_settings_tts": {
+      "message": "Text to speech:"
+   },
+   "label_settings_tts_highlight": {
+      "message": "Highlight the reading sentense"
+   },
+   "label_settings_tts_highlight_title": {
+      "message": "Highlight the reading paragraph"
+   },
+   "label_settings_tts_max_length": {
+      "message": "Set max size of a sentence:"
+   },
+   "label_settings_tts_scroll": {
+      "message": "Scroll into view"
+   },
+   "label_settings_tts_scroll_title": {
+      "message": "Scroll the reading paragraph into view"
+   },
+   "label_settings_tts_speed": {
+      "message": "Set reading speed:"
+   },
+   "label_settings_tts_templates": {
+      "message": "Set voice templates:"
+   },
+   "label_settings_tts_visual": {
+      "message": "Set visual feedback:"
+   },
+   "label_settings_tts_visual_title": {
+      "message": "Set visual feedback on the web page during reading"
+   },
+   "label_settings_tts_volume": {
+      "message": "Set reading volume:"
+   },
+   "label_settings_user_info": {
+      "message": "User Info:"
+   },
+   "label_settings_useremail": {
+      "message": "Set email for the latest updates:"
+   },
+   "label_settings_username": {
+      "message": "Set owner name of your templates:"
+   },
+   "label_settings_voices_example": {
+      "message": "Example:"
+   },
+   "label_settings_voices_example_author": {
+      "message": "Author:"
+   },
+   "label_settings_voices_example_body": {
+      "message": "Body:"
+   },
+   "label_settings_voices_example_time": {
+      "message": "Time:"
+   },
+   "label_settings_voices_example_title": {
+      "message": "Title:"
+   },
+   "label_settings_voices_templates": {
+      "message": "Templates:"
+   },
+   "label_settings_voices_templates_article": {
+      "message": "Article:"
+   },
+   "label_settings_voices_templates_paragraph": {
+      "message": "Paragraph:"
+   },
+   "label_settings_voices_templates_selection": {
+      "message": "Selection:"
+   },
+   "label_settings_voices_test_article": {
+      "message": "Test article"
+   },
+   "label_settings_voices_test_paragraph": {
+      "message": "Test paragraph"
+   },
+   "label_settings_voices_test_selection": {
+      "message": "Test selection"
+   },
+   "label_site_templates": {
+      "message": "Site templates:"
+   },
+   "label_sites_article_result": {
+      "message": "Article Result"
+   },
+   "label_submit": {
+      "message": "Submit"
+   },
+   "label_time": {
+      "message": "Time"
+   },
+   "label_title": {
+      "message": "Title"
+   },
+   "label_true": {
+      "message": "true"
+   },
+   "label_tts_modify_voice_templates": {
+      "message": "Modify voice templates"
+   },
+   "label_voice": {
+      "message": "Voice:"
+   },
+   "label_voices_languages": {
+      "message": "Languages:"
+   },
+   "label_voices_preferred_voice": {
+      "message": "Preferred voice:"
+   },
+   "label_yes": {
+      "message": "yes"
+   },
+   "menu_read_article": {
+      "message": "Read the article.."
+   },
+   "menu_read_article_translation": {
+      "message": "Read the article in '$1'.."
+   },
+   "menu_read_paragraph": {
+      "message": "Read the paragraph.."
+   },
+   "menu_read_paragraph_translation": {
+      "message": "Read the paragraph in '$1'.."
+   },
+   "menu_read_selection": {
+      "message": "Read the selection.."
+   },
+   "menu_read_selection_translation": {
+      "message": "Read the selection in '$1'.."
+   },
+   "menu_start_reading": {
+      "message": "Start reading book.."
+   },
+   "menu_stop_reading": {
+      "message": "Stop reading book.."
+   },
+   "news_auto_translation": {
+      "message": "Don't stop by the foreign web sites which language you don't understand, 'Read-It' can translate and read the whole article back to you with the language you know."
+   },
+   "news_change_translation_lanugage": {
+      "message": "If you prefer the other language for 'TTS Scribd Reader' to translate and read, you can open 'Settings' tab and change the translation language you like"
+   },
+   "news_foreign_site_url": {
+      "message": "https://fr.yahoo.com/style/chaussettes-chewbacca-justin-trudeau-font-163000113.html"
+   },
+   "news_open_foreign_site": {
+      "message": "Click the link blow to open a foreign news site:"
+   },
+   "news_read_in_language": {
+      "message": "When the page is loaded, right click on the page, select \"'TTS Scribd Reader'\" => \"Read the article in 'English'..\", then you will hear the voice is reading the article in English"
+   },
+   "news_release_notes": {
+      "message": "September 2017 (version 0.2)"
+   },
+   "question_delete_site_template": {
+      "message": "Do you want to remove site template '$1'?"
+   },
+   "report_issue_no_template": {
+      "message": "Can't find site template '$host$', on the page '$url$', and additional note '$note$'",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         },
+         "note": {
+            "content": "$3"
+         },
+         "url": {
+            "content": "$2"
+         }
+      }
+   },
+   "report_issue_no_text": {
+      "message": "'TTS Scribd Reader' can read text books, but can't read the books that are scaned/printed into graphic books.\nIf you are sure this book is text book, you can submit an issue report, we will fix the issue asap, following data will be submitted:\n\n$1"
+   },
+   "report_issue_other_issues": {
+      "message": "There are some issues with site template '$host$', on the page '$url$', and additional note '$note$'",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         },
+         "note": {
+            "content": "$3"
+         },
+         "url": {
+            "content": "$2"
+         }
+      }
+   },
+   "report_issue_wrong_template": {
+      "message": "There are some issues with site template '$host$', fields '$fields$ are incorrect, on the page '$url$', and additional note '$note$'",
+      "placeholders": {
+         "fields": {
+            "content": "$2"
+         },
+         "host": {
+            "content": "$1"
+         },
+         "note": {
+            "content": "$4"
+         },
+         "url": {
+            "content": "$3"
+         }
+      }
+   },
+   "status_site_template_ok": {
+      "message": "site template is good"
+   },
+   "tab_books_label": {
+      "message": "Library"
+   },
+   "tabs_about_label": {
+      "message": "About"
+   },
+   "tabs_label_news": {
+      "message": "Notes"
+   },
+   "tabs_settings_label": {
+      "message": "Settings"
+   },
+   "tabs_sites_label": {
+      "message": "Sites"
+   },
+   "tabs_tts_label": {
+      "message": "Reading"
+   },
+   "tabs_tutorial_label": {
+      "message": "Tutorial"
+   },
+   "text_article_no_date": {
+      "message": "Undated"
+   },
+   "text_article_no_title": {
+      "message": "Untitled"
+   },
+   "text_not_reading": {
+      "message": "'TTS Scribd Reader'  is not reading anything."
+   },
+   "text_publish_site_template_failed": {
+      "message": "'TTS Scribd Reader' failed to publish site template, Host: '$host$', error: '$err$'",
+      "placeholders": {
+         "err": {
+            "content": "$2"
+         },
+         "host": {
+            "content": "$1"
+         }
+      }
+   },
+   "text_publish_site_template_succeeded": {
+      "message": "'TTS Scribd Reader'  published site template successfully.\nSite: '$site$'",
+      "placeholders": {
+         "site": {
+            "content": "$1"
+         }
+      }
+   },
+   "text_voice_exmaple_author": {
+      "message": "John Doe"
+   },
+   "text_voice_exmaple_body": {
+      "message": "Antelope Valley California Poppy Reserve reports:"
+   },
+   "text_voice_exmaple_time": {
+      "message": "Apr. 1st 2017"
+   },
+   "text_voice_exmaple_title": {
+      "message": "Super bloom"
+   },
+   "text_voice_template_article": {
+      "message": "{title}\nBy {author}\n{time}\n{body}\n(The End)"
+   },
+   "text_voice_template_paragraph": {
+      "message": "{body}\n(The End)"
+   },
+   "text_voice_template_selection": {
+      "message": "{body}"
+   },
+   "tutorial_control_playback": {
+      "message": "Now you can explore the tabs on the top of this window, select 'Reading' tab, for controling reading playback"
+   },
+   "tutorial_create_templates": {
+      "message": "Select 'Sites' tab, for creating or modifying the site templates"
+   },
+   "tutorial_example_site_url": {
+      "message": "http://www.cnn.com/2017/09/13/entertainment/willie-nelson-harvey-benefit/index.html"
+   },
+   "tutorial_grant_oauth2": {
+      "message": "When the page is loaded, right click on the page and select 'Read the article..', You will be prompted for granting OAuth2 to 'TTS Scribd Reader', because 'TTS Scribd Reader' needs your permission to validate license, please click OK to continue; you might need to right click menu on the page and select 'Read the article..' again, then you will hear a voice is reading the page."
+   },
+   "tutorial_modify_settings": {
+      "message": "Select 'Settings' tab, for controlling the reading options"
+   },
+   "tutorial_open_news_site": {
+      "message": "Then check out an article on the popular news site: "
+   },
+   "tutorial_open_tryout_site": {
+      "message": "First check out the tryout site: NASA.GOV, an article about 'Cloudy sky': "
+   },
+   "tutorial_right_click_menu": {
+      "message": "When the page is loaded, right click on the page, select 'TTS Read-It! - Article to Speech' => 'Read the article..'; you will hear a voice is reading the article."
+   },
+   "tutorial_title": {
+      "message": "Quick tutorial on how to use 'TTS Scribd Reader'"
+   },
+   "warning_system_error": {
+      "message": "Warning: $1"
+   }
+}

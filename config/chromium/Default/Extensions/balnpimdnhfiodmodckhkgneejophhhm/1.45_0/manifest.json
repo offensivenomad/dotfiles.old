@@ -1,0 +1,21 @@
+{
+   "author": "Ciaran & Chris",
+   "browser_action": {
+      "default_icon": "images/googleCog128.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
+   "description": "A beautiful Google Chrome extension manager to turn on/off other extensions quickly and easily without leaving your current tab",
+   "icons": {
+      "128": "images/googleCog128.png",
+      "16": "images/googleCog16.png",
+      "48": "images/googleCog48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnCXy7CWP9yhWLfgLshaXQtJu29rGvHtyZdgDgTS4eSLA6YbQSjCnL1AJG8Xke9zuIQ5VGF8vn+nYOOBQDvvodAEOO26VV9QqJkDhgW3kkyF9FQEcc3a2D5HKsEQAc4yyoRaExrIC29pNM1czChhRbqmYCBO91F3bx3qBAWKJX2hnxt/8+0VNx2rRgfjbdAa7QUEFhFQZIMpJCBXRS3G3+NJdwrRZFt/2c8zXv8Emy7XxP0M07H9KqU9YyNlvFYJ8izT+rIpFosoQAEZuf1nVx7nKF/rmthpgbjDNXWs86zpT889hMZOG1YXBocDA+eyy7uDQNWWSrAuTOPBOokwrlQIDAQAB",
+   "manifest_version": 2,
+   "name": "Custom Chrome - Extension Manager",
+   "permissions": [ "storage", "management" ],
+   "short_name": "Custom Chrome",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.45"
+}
