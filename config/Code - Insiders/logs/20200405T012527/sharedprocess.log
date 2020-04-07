@@ -1,0 +1,311 @@
+[2020-04-05 01:25:31.230] [sharedprocess] [info] main {"machineId":"e2ceb5a28f9777c2fe88760f5635d0cbafa4aeacfe1fe47b63c9b8bfe93a23b4","windowId":2}
+[2020-04-05 01:25:31.260] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/loki/.config/Code - Insiders/User/snippets'
+[2020-04-05 01:25:54.551] [sharedprocess] [info] Installing extension: nowsci.glassit-linux
+[2020-04-05 01:25:55.243] [sharedprocess] [info] Downloaded extension: nowsci.glassit-linux /tmp/f553d68c-4442-47f1-ace4-7f5c81baf658
+[2020-04-05 01:25:55.266] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.nowsci.glassit-linux-1.0.0: nowsci.glassit-linux
+[2020-04-05 01:25:55.266] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/nowsci.glassit-linux-1.0.0
+[2020-04-05 01:25:55.267] [sharedprocess] [info] Installation completed. nowsci.glassit-linux
+[2020-04-05 01:25:55.271] [sharedprocess] [info] Extensions installed successfully: nowsci.glassit-linux
+[2020-04-05 01:26:11.244] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-04-05 01:26:12.417] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-04-05 01:26:16.934] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2020-04-05 01:26:17.930] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools /tmp/de87e0f4-59e9-4b9a-b5b8-8ef6b5f7e455
+[2020-04-05 01:26:18.070] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2020-04-05 01:26:18.198] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.ms-vscode.cpptools-0.27.0: ms-vscode.cpptools
+[2020-04-05 01:26:18.198] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/ms-vscode.cpptools-0.27.0
+[2020-04-05 01:26:18.201] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2020-04-05 01:26:18.205] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2020-04-05 01:26:18.539] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /tmp/8dbd6d7d-5167-4a77-8b24-5c9531a03053
+[2020-04-05 01:26:18.553] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.dbaeumer.vscode-eslint-2.1.2: dbaeumer.vscode-eslint
+[2020-04-05 01:26:18.553] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/dbaeumer.vscode-eslint-2.1.2
+[2020-04-05 01:26:18.554] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2020-04-05 01:26:18.558] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint
+[2020-04-05 01:26:19.849] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2020-04-05 01:26:20.980] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /tmp/2701eae4-c6fb-4172-8b3e-ba03cff8f7a1
+[2020-04-05 01:26:21.140] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.esbenp.prettier-vscode-4.0.0: esbenp.prettier-vscode
+[2020-04-05 01:26:21.141] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/esbenp.prettier-vscode-4.0.0
+[2020-04-05 01:26:21.142] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2020-04-05 01:26:21.145] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2020-04-05 01:26:22.981] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2020-04-05 01:26:23.879] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /tmp/5ea3265b-0b13-469d-a447-f4b4badd4c10
+[2020-04-05 01:26:25.967] [sharedprocess] [info] Installing extension: visualstudioexptteam.vscodeintellicode
+[2020-04-05 01:26:32.738] [sharedprocess] [info] Installing extension: octref.vetur
+[2020-04-05 01:26:32.759] [sharedprocess] [info] Downloaded extension: visualstudioexptteam.vscodeintellicode /tmp/9f398df5-b79c-45b9-b599-52f394678021
+[2020-04-05 01:26:33.352] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.visualstudioexptteam.vscodeintellicode-1.2.6: visualstudioexptteam.vscodeintellicode
+[2020-04-05 01:26:33.352] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/visualstudioexptteam.vscodeintellicode-1.2.6
+[2020-04-05 01:26:33.353] [sharedprocess] [info] Installation completed. visualstudioexptteam.vscodeintellicode
+[2020-04-05 01:26:33.358] [sharedprocess] [info] Extensions installed successfully: visualstudioexptteam.vscodeintellicode
+[2020-04-05 01:26:33.632] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.vscode-icons-team.vscode-icons-10.0.0: vscode-icons-team.vscode-icons
+[2020-04-05 01:26:33.632] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/vscode-icons-team.vscode-icons-10.0.0
+[2020-04-05 01:26:33.633] [sharedprocess] [info] Installation completed. vscode-icons-team.vscode-icons
+[2020-04-05 01:26:33.637] [sharedprocess] [info] Extensions installed successfully: vscode-icons-team.vscode-icons
+[2020-04-05 01:26:40.869] [sharedprocess] [info] Downloaded extension: octref.vetur /tmp/13b3f6ab-07db-47e5-8388-a71c530bf24b
+[2020-04-05 01:26:46.779] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2020-04-05 01:26:48.364] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /tmp/3b412444-bb37-4288-a877-b6abe222fc4b
+[2020-04-05 01:26:48.686] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.ms-azuretools.vscode-docker-1.0.0: ms-azuretools.vscode-docker
+[2020-04-05 01:26:48.686] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/ms-azuretools.vscode-docker-1.0.0
+[2020-04-05 01:26:48.690] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2020-04-05 01:26:48.733] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker
+[2020-04-05 01:26:53.560] [sharedprocess] [info] Installing extension: wscats.eno
+[2020-04-05 01:26:59.970] [sharedprocess] [info] Installing extension: christian-kohler.path-intellisense
+[2020-04-05 01:27:01.450] [sharedprocess] [info] Installing extension: coenraads.bracket-pair-colorizer
+[2020-04-05 01:27:01.461] [sharedprocess] [info] Downloaded extension: christian-kohler.path-intellisense /tmp/e740bba7-eb20-4392-b46e-c8ff3092852d
+[2020-04-05 01:27:01.487] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.christian-kohler.path-intellisense-1.4.2: christian-kohler.path-intellisense
+[2020-04-05 01:27:01.487] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/christian-kohler.path-intellisense-1.4.2
+[2020-04-05 01:27:01.488] [sharedprocess] [info] Installation completed. christian-kohler.path-intellisense
+[2020-04-05 01:27:01.492] [sharedprocess] [info] Extensions installed successfully: christian-kohler.path-intellisense
+[2020-04-05 01:27:03.367] [sharedprocess] [info] Downloaded extension: coenraads.bracket-pair-colorizer /tmp/15d55f51-4a0a-46ff-8316-757309907db1
+[2020-04-05 01:27:03.724] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.coenraads.bracket-pair-colorizer-1.0.61: coenraads.bracket-pair-colorizer
+[2020-04-05 01:27:03.724] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/coenraads.bracket-pair-colorizer-1.0.61
+[2020-04-05 01:27:03.724] [sharedprocess] [info] Installation completed. coenraads.bracket-pair-colorizer
+[2020-04-05 01:27:03.733] [sharedprocess] [info] Extensions installed successfully: coenraads.bracket-pair-colorizer
+[2020-04-05 01:27:03.942] [sharedprocess] [info] Installing extension: formulahendry.auto-close-tag
+[2020-04-05 01:27:05.213] [sharedprocess] [info] Downloaded extension: wscats.eno /tmp/da8b6d6a-4141-407f-9536-831072dc06af
+[2020-04-05 01:27:05.269] [sharedprocess] [info] Downloaded extension: formulahendry.auto-close-tag /tmp/64e224a8-315b-42f0-898f-aae6a0ffff7e
+[2020-04-05 01:27:05.298] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.formulahendry.auto-close-tag-0.5.6: formulahendry.auto-close-tag
+[2020-04-05 01:27:05.298] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/formulahendry.auto-close-tag-0.5.6
+[2020-04-05 01:27:05.299] [sharedprocess] [info] Installation completed. formulahendry.auto-close-tag
+[2020-04-05 01:27:05.302] [sharedprocess] [info] Extensions installed successfully: formulahendry.auto-close-tag
+[2020-04-05 01:27:18.428] [sharedprocess] [info] Installing extension: editorconfig.editorconfig
+[2020-04-05 01:27:23.313] [sharedprocess] [info] Downloaded extension: editorconfig.editorconfig /tmp/373dd7b7-39e7-4ba1-afec-908e37c483d1
+[2020-04-05 01:27:23.368] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.editorconfig.editorconfig-0.14.4: editorconfig.editorconfig
+[2020-04-05 01:27:23.369] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/editorconfig.editorconfig-0.14.4
+[2020-04-05 01:27:23.370] [sharedprocess] [info] Installation completed. editorconfig.editorconfig
+[2020-04-05 01:27:23.374] [sharedprocess] [info] Extensions installed successfully: editorconfig.editorconfig
+[2020-04-05 01:27:23.915] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.wscats.eno-2.1.4: wscats.eno
+[2020-04-05 01:27:23.915] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/wscats.eno-2.1.4
+[2020-04-05 01:27:23.918] [sharedprocess] [info] Installation completed. wscats.eno
+[2020-04-05 01:27:23.926] [sharedprocess] [info] Extensions installed successfully: wscats.eno
+[2020-04-05 01:27:24.691] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.octref.vetur-0.24.0: octref.vetur
+[2020-04-05 01:27:24.691] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/octref.vetur-0.24.0
+[2020-04-05 01:27:24.692] [sharedprocess] [info] Installation completed. octref.vetur
+[2020-04-05 01:27:24.698] [sharedprocess] [info] Extensions installed successfully: octref.vetur
+[2020-04-05 01:27:54.758] [sharedprocess] [info] Installing extension: formulahendry.auto-rename-tag
+[2020-04-05 01:27:55.213] [sharedprocess] [info] Downloaded extension: formulahendry.auto-rename-tag /tmp/ad3f35b5-feaf-49b3-8110-4a8563d0026c
+[2020-04-05 01:27:55.234] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.formulahendry.auto-rename-tag-0.1.1: formulahendry.auto-rename-tag
+[2020-04-05 01:27:55.234] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/formulahendry.auto-rename-tag-0.1.1
+[2020-04-05 01:27:55.234] [sharedprocess] [info] Installation completed. formulahendry.auto-rename-tag
+[2020-04-05 01:27:55.237] [sharedprocess] [info] Extensions installed successfully: formulahendry.auto-rename-tag
+[2020-04-05 01:28:14.855] [sharedprocess] [info] Installing extension: shan.code-settings-sync
+[2020-04-05 01:28:18.296] [sharedprocess] [info] Downloaded extension: shan.code-settings-sync /tmp/77cb5e1a-5386-453e-8c03-e618beeb14ff
+[2020-04-05 01:28:18.364] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.shan.code-settings-sync-3.4.3: shan.code-settings-sync
+[2020-04-05 01:28:18.364] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/shan.code-settings-sync-3.4.3
+[2020-04-05 01:28:18.365] [sharedprocess] [info] Installation completed. shan.code-settings-sync
+[2020-04-05 01:28:18.368] [sharedprocess] [info] Extensions installed successfully: shan.code-settings-sync
+[2020-04-05 01:28:35.802] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/3d217ba0-0c3c-4b52-941a-50fdf4811595
+[2020-04-05 01:29:25.632] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.ms-python.python-2020.3.71659: ms-python.python
+[2020-04-05 01:29:25.632] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/ms-python.python-2020.3.71659
+[2020-04-05 01:29:25.638] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-04-05 01:29:25.648] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2020-04-05 01:29:46.373] [sharedprocess] [info] Installing extension: naumovs.color-highlight
+[2020-04-05 01:29:47.319] [sharedprocess] [info] Downloaded extension: naumovs.color-highlight /tmp/1b21ef82-1873-41a5-9f05-7f3411acc4fe
+[2020-04-05 01:29:47.384] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.naumovs.color-highlight-2.3.0: naumovs.color-highlight
+[2020-04-05 01:29:47.384] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/naumovs.color-highlight-2.3.0
+[2020-04-05 01:29:47.385] [sharedprocess] [info] Installation completed. naumovs.color-highlight
+[2020-04-05 01:29:47.388] [sharedprocess] [info] Extensions installed successfully: naumovs.color-highlight
+[2020-04-05 01:29:51.455] [sharedprocess] [info] Installing extension: wayou.vscode-todo-highlight
+[2020-04-05 01:29:53.357] [sharedprocess] [info] Downloaded extension: wayou.vscode-todo-highlight /tmp/2ae8c4c9-d8e4-4fe9-978b-b6f48d34a6e5
+[2020-04-05 01:29:53.384] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.wayou.vscode-todo-highlight-1.0.4: wayou.vscode-todo-highlight
+[2020-04-05 01:29:53.384] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/wayou.vscode-todo-highlight-1.0.4
+[2020-04-05 01:29:53.385] [sharedprocess] [info] Installation completed. wayou.vscode-todo-highlight
+[2020-04-05 01:29:53.389] [sharedprocess] [info] Extensions installed successfully: wayou.vscode-todo-highlight
+[2020-04-05 01:29:55.741] [sharedprocess] [info] Installing extension: steoates.autoimport
+[2020-04-05 01:29:57.500] [sharedprocess] [info] Downloaded extension: steoates.autoimport /tmp/4ac3d0e3-34f6-4830-a29e-dc385c7df734
+[2020-04-05 01:30:03.256] [sharedprocess] [info] Installing extension: mikestead.dotenv
+[2020-04-05 01:30:16.068] [sharedprocess] [info] Downloaded extension: mikestead.dotenv /tmp/c5a84a0d-c2a7-4cf9-8e6f-143ba1c69f6c
+[2020-04-05 01:30:16.082] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.mikestead.dotenv-1.0.1: mikestead.dotenv
+[2020-04-05 01:30:16.082] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/mikestead.dotenv-1.0.1
+[2020-04-05 01:30:16.083] [sharedprocess] [info] Installation completed. mikestead.dotenv
+[2020-04-05 01:30:16.086] [sharedprocess] [info] Extensions installed successfully: mikestead.dotenv
+[2020-04-05 01:30:22.471] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.steoates.autoimport-1.5.3: steoates.autoimport
+[2020-04-05 01:30:22.471] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/steoates.autoimport-1.5.3
+[2020-04-05 01:30:22.472] [sharedprocess] [info] Installation completed. steoates.autoimport
+[2020-04-05 01:30:22.495] [sharedprocess] [info] Extensions installed successfully: steoates.autoimport
+[2020-04-05 01:30:41.712] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-containers
+[2020-04-05 01:30:43.880] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-containers /tmp/be1cbdc6-5965-4e25-94ea-07994573992a
+[2020-04-05 01:30:47.937] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.ms-vscode-remote.remote-containers-0.110.0: ms-vscode-remote.remote-containers
+[2020-04-05 01:30:47.938] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/ms-vscode-remote.remote-containers-0.110.0
+[2020-04-05 01:30:47.939] [sharedprocess] [info] Installation completed. ms-vscode-remote.remote-containers
+[2020-04-05 01:30:47.963] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.remote-containers
+[2020-04-05 01:30:55.207] [sharedprocess] [info] Installing extension: vsciot-vscode.vscode-arduino
+[2020-04-05 01:30:59.753] [sharedprocess] [info] Downloaded extension: vsciot-vscode.vscode-arduino /tmp/db8d9267-a441-40bc-b12e-4104e74032fb
+[2020-04-05 01:30:59.905] [sharedprocess] [info] Installing extension: formulahendry.terminal
+[2020-04-05 01:31:01.412] [sharedprocess] [info] Downloaded extension: formulahendry.terminal /tmp/cdc74c93-50e3-49f7-8db9-45db1a684c58
+[2020-04-05 01:31:01.472] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.formulahendry.terminal-0.0.10: formulahendry.terminal
+[2020-04-05 01:31:01.472] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/formulahendry.terminal-0.0.10
+[2020-04-05 01:31:01.473] [sharedprocess] [info] Installation completed. formulahendry.terminal
+[2020-04-05 01:31:01.477] [sharedprocess] [info] Extensions installed successfully: formulahendry.terminal
+[2020-04-05 01:31:01.515] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.vsciot-vscode.vscode-arduino-0.3.0: vsciot-vscode.vscode-arduino
+[2020-04-05 01:31:01.515] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/vsciot-vscode.vscode-arduino-0.3.0
+[2020-04-05 01:31:01.516] [sharedprocess] [info] Installation completed. vsciot-vscode.vscode-arduino
+[2020-04-05 01:31:01.573] [sharedprocess] [info] Extensions installed successfully: vsciot-vscode.vscode-arduino
+[2020-04-05 01:31:16.941] [sharedprocess] [info] Installing extension: wix.vscode-import-cost
+[2020-04-05 01:31:38.268] [sharedprocess] [info] Downloaded extension: wix.vscode-import-cost /tmp/a55a6d21-22e1-40ea-8fc6-3d4d0b2da76b
+[2020-04-05 01:31:39.194] [sharedprocess] [info] Installing extension: mauve.terraform
+[2020-04-05 01:31:44.122] [sharedprocess] [info] Installing extension: sdras.vue-vscode-snippets
+[2020-04-05 01:31:48.672] [sharedprocess] [info] Installing extension: anseki.vscode-color
+[2020-04-05 01:31:48.696] [sharedprocess] [info] Downloaded extension: sdras.vue-vscode-snippets /tmp/5a2389de-dc13-474f-b60e-fc047e00ca34
+[2020-04-05 01:31:48.697] [sharedprocess] [info] Downloaded extension: mauve.terraform /tmp/2d94a35a-e44d-4aba-a61f-371ea0857cc9
+[2020-04-05 01:31:48.741] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.sdras.vue-vscode-snippets-1.8.0: sdras.vue-vscode-snippets
+[2020-04-05 01:31:48.741] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/sdras.vue-vscode-snippets-1.8.0
+[2020-04-05 01:31:48.742] [sharedprocess] [info] Installation completed. sdras.vue-vscode-snippets
+[2020-04-05 01:31:48.798] [sharedprocess] [info] Extensions installed successfully: sdras.vue-vscode-snippets
+[2020-04-05 01:31:50.010] [sharedprocess] [info] Downloaded extension: anseki.vscode-color /tmp/497b21f8-c94e-409c-bd2a-747b4e599b53
+[2020-04-05 01:31:50.054] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.anseki.vscode-color-0.4.5: anseki.vscode-color
+[2020-04-05 01:31:50.054] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/anseki.vscode-color-0.4.5
+[2020-04-05 01:31:50.055] [sharedprocess] [info] Installation completed. anseki.vscode-color
+[2020-04-05 01:31:50.059] [sharedprocess] [info] Extensions installed successfully: anseki.vscode-color
+[2020-04-05 01:31:53.187] [sharedprocess] [info] Installing extension: ms-kubernetes-tools.vscode-kubernetes-tools
+[2020-04-05 01:31:53.861] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.mauve.terraform-1.4.0: mauve.terraform
+[2020-04-05 01:31:53.861] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/mauve.terraform-1.4.0
+[2020-04-05 01:31:53.862] [sharedprocess] [info] Installation completed. mauve.terraform
+[2020-04-05 01:31:53.867] [sharedprocess] [info] Extensions installed successfully: mauve.terraform
+[2020-04-05 01:32:08.894] [sharedprocess] [info] Downloaded extension: ms-kubernetes-tools.vscode-kubernetes-tools /tmp/f9f097ca-b1e4-47dc-81f8-77e97a5ef708
+[2020-04-05 01:32:24.426] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.wix.vscode-import-cost-2.12.0: wix.vscode-import-cost
+[2020-04-05 01:32:24.426] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/wix.vscode-import-cost-2.12.0
+[2020-04-05 01:32:24.428] [sharedprocess] [info] Installation completed. wix.vscode-import-cost
+[2020-04-05 01:32:24.434] [sharedprocess] [info] Extensions installed successfully: wix.vscode-import-cost
+[2020-04-05 01:32:27.179] [sharedprocess] [info] Installing extension: cssho.vscode-svgviewer
+[2020-04-05 01:32:39.309] [sharedprocess] [info] Installing extension: jcbuisson.vue
+[2020-04-05 01:32:39.556] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.ms-kubernetes-tools.vscode-kubernetes-tools-1.1.1: ms-kubernetes-tools.vscode-kubernetes-tools
+[2020-04-05 01:32:39.556] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.1.1
+[2020-04-05 01:32:39.557] [sharedprocess] [info] Installation completed. ms-kubernetes-tools.vscode-kubernetes-tools
+[2020-04-05 01:32:39.836] [sharedprocess] [info] Installing extension: redhat.vscode-yaml
+[2020-04-05 01:32:40.174] [sharedprocess] [info] Downloaded extension: jcbuisson.vue /tmp/4b706adf-5699-4063-82d2-719cf189da80
+[2020-04-05 01:32:40.189] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.jcbuisson.vue-0.1.5: jcbuisson.vue
+[2020-04-05 01:32:40.189] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/jcbuisson.vue-0.1.5
+[2020-04-05 01:32:40.190] [sharedprocess] [info] Installation completed. jcbuisson.vue
+[2020-04-05 01:32:40.193] [sharedprocess] [info] Extensions installed successfully: jcbuisson.vue
+[2020-04-05 01:32:51.924] [sharedprocess] [info] Downloaded extension: redhat.vscode-yaml /tmp/7aa30bd6-44f3-41a3-baab-8e9677090acd
+[2020-04-05 01:32:52.949] [sharedprocess] [info] Installing extension: eriklynd.json-tools
+[2020-04-05 01:32:58.782] [sharedprocess] [info] Installing extension: tomoki1207.pdf
+[2020-04-05 01:32:58.793] [sharedprocess] [info] Downloaded extension: eriklynd.json-tools /tmp/40d62811-60b5-4929-b529-99e8c7aaafa9
+[2020-04-05 01:32:59.075] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.eriklynd.json-tools-1.0.2: eriklynd.json-tools
+[2020-04-05 01:32:59.075] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/eriklynd.json-tools-1.0.2
+[2020-04-05 01:32:59.076] [sharedprocess] [info] Installation completed. eriklynd.json-tools
+[2020-04-05 01:32:59.080] [sharedprocess] [info] Extensions installed successfully: eriklynd.json-tools
+[2020-04-05 01:32:59.442] [sharedprocess] [info] Downloaded extension: cssho.vscode-svgviewer /tmp/ec44ee94-9605-431d-86c2-b439c9213cfa
+[2020-04-05 01:32:59.710] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.redhat.vscode-yaml-0.7.2: redhat.vscode-yaml
+[2020-04-05 01:32:59.710] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/redhat.vscode-yaml-0.7.2
+[2020-04-05 01:32:59.710] [sharedprocess] [info] Installation completed. redhat.vscode-yaml
+[2020-04-05 01:32:59.715] [sharedprocess] [info] Extensions installed successfully: redhat.vscode-yaml
+[2020-04-05 01:32:59.716] [sharedprocess] [info] Extensions installed successfully: ms-kubernetes-tools.vscode-kubernetes-tools
+[2020-04-05 01:33:01.053] [sharedprocess] [info] Installing extension: mrmlnc.vscode-scss
+[2020-04-05 01:33:01.074] [sharedprocess] [info] Downloaded extension: tomoki1207.pdf /tmp/dd63605b-14c9-4a6c-b493-3aa41b0b6f9f
+[2020-04-05 01:33:01.319] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.cssho.vscode-svgviewer-2.0.0: cssho.vscode-svgviewer
+[2020-04-05 01:33:01.319] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/cssho.vscode-svgviewer-2.0.0
+[2020-04-05 01:33:01.320] [sharedprocess] [info] Installation completed. cssho.vscode-svgviewer
+[2020-04-05 01:33:01.325] [sharedprocess] [info] Extensions installed successfully: cssho.vscode-svgviewer
+[2020-04-05 01:33:01.430] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.tomoki1207.pdf-0.5.1: tomoki1207.pdf
+[2020-04-05 01:33:01.431] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/tomoki1207.pdf-0.5.1
+[2020-04-05 01:33:01.431] [sharedprocess] [info] Installation completed. tomoki1207.pdf
+[2020-04-05 01:33:01.436] [sharedprocess] [info] Extensions installed successfully: tomoki1207.pdf
+[2020-04-05 01:33:05.287] [sharedprocess] [info] Downloaded extension: mrmlnc.vscode-scss /tmp/22cec1d2-9453-4dbf-996c-2cd4219c46a2
+[2020-04-05 01:33:18.791] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.mrmlnc.vscode-scss-0.9.0: mrmlnc.vscode-scss
+[2020-04-05 01:33:18.791] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/mrmlnc.vscode-scss-0.9.0
+[2020-04-05 01:33:18.794] [sharedprocess] [info] Installation completed. mrmlnc.vscode-scss
+[2020-04-05 01:33:18.799] [sharedprocess] [info] Extensions installed successfully: mrmlnc.vscode-scss
+[2020-04-05 01:34:27.271] [sharedprocess] [info] Installing extension: mathiasfrohlich.kotlin
+[2020-04-05 01:34:29.495] [sharedprocess] [info] Installing extension: vscoss.vscode-ansible
+[2020-04-05 01:34:30.172] [sharedprocess] [info] Downloaded extension: mathiasfrohlich.kotlin /tmp/17449050-f419-4124-8df7-cf1a91d63f84
+[2020-04-05 01:34:30.190] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.mathiasfrohlich.kotlin-1.7.1: mathiasfrohlich.kotlin
+[2020-04-05 01:34:30.190] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/mathiasfrohlich.kotlin-1.7.1
+[2020-04-05 01:34:30.190] [sharedprocess] [info] Installation completed. mathiasfrohlich.kotlin
+[2020-04-05 01:34:30.193] [sharedprocess] [info] Extensions installed successfully: mathiasfrohlich.kotlin
+[2020-04-05 01:34:37.304] [sharedprocess] [info] Installing extension: syler.sass-indented
+[2020-04-05 01:34:39.962] [sharedprocess] [info] Downloaded extension: syler.sass-indented /tmp/e70be120-5626-48cc-9b18-016a93addca8
+[2020-04-05 01:34:39.973] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.syler.sass-indented-1.8.1: syler.sass-indented
+[2020-04-05 01:34:39.973] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/syler.sass-indented-1.8.1
+[2020-04-05 01:34:39.975] [sharedprocess] [info] Installation completed. syler.sass-indented
+[2020-04-05 01:34:39.978] [sharedprocess] [info] Extensions installed successfully: syler.sass-indented
+[2020-04-05 01:34:51.696] [sharedprocess] [info] Installing extension: tyriar.sort-lines
+[2020-04-05 01:34:53.624] [sharedprocess] [info] Downloaded extension: tyriar.sort-lines /tmp/4bb98b9d-1a01-47e1-ab1a-77d3e1248156
+[2020-04-05 01:34:53.669] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.tyriar.sort-lines-1.9.0: tyriar.sort-lines
+[2020-04-05 01:34:53.669] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/tyriar.sort-lines-1.9.0
+[2020-04-05 01:34:53.669] [sharedprocess] [info] Installation completed. tyriar.sort-lines
+[2020-04-05 01:34:53.672] [sharedprocess] [info] Extensions installed successfully: tyriar.sort-lines
+[2020-04-05 01:34:56.456] [sharedprocess] [info] Installing extension: oysun.vuehelper
+[2020-04-05 01:34:58.495] [sharedprocess] [info] Installing extension: sibiraj-s.vscode-scss-formatter
+[2020-04-05 01:35:01.374] [sharedprocess] [info] Downloaded extension: sibiraj-s.vscode-scss-formatter /tmp/c44350df-85bd-4923-9bd5-66f64172f523
+[2020-04-05 01:35:01.508] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.sibiraj-s.vscode-scss-formatter-2.0.0: sibiraj-s.vscode-scss-formatter
+[2020-04-05 01:35:01.509] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/sibiraj-s.vscode-scss-formatter-2.0.0
+[2020-04-05 01:35:01.510] [sharedprocess] [info] Installation completed. sibiraj-s.vscode-scss-formatter
+[2020-04-05 01:35:01.514] [sharedprocess] [info] Extensions installed successfully: sibiraj-s.vscode-scss-formatter
+[2020-04-05 01:35:03.613] [sharedprocess] [info] Downloaded extension: oysun.vuehelper /tmp/eb6c3ade-44a0-4eff-b15f-f486a1e8abee
+[2020-04-05 01:35:03.647] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.oysun.vuehelper-0.1.0: oysun.vuehelper
+[2020-04-05 01:35:03.647] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/oysun.vuehelper-0.1.0
+[2020-04-05 01:35:03.648] [sharedprocess] [info] Installation completed. oysun.vuehelper
+[2020-04-05 01:35:03.651] [sharedprocess] [info] Extensions installed successfully: oysun.vuehelper
+[2020-04-05 01:35:16.257] [sharedprocess] [info] Downloaded extension: vscoss.vscode-ansible /tmp/e063b860-9494-4946-be42-a10794e5d1de
+[2020-04-05 01:35:49.856] [sharedprocess] [info] Installing extension: xabikos.javascriptsnippets
+[2020-04-05 01:35:52.676] [sharedprocess] [info] Downloaded extension: xabikos.javascriptsnippets /tmp/25295d6d-67cf-4868-a302-dc704e69094a
+[2020-04-05 01:35:52.682] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.xabikos.javascriptsnippets-1.7.2: xabikos.javascriptsnippets
+[2020-04-05 01:35:52.683] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/xabikos.javascriptsnippets-1.7.2
+[2020-04-05 01:35:52.683] [sharedprocess] [info] Installation completed. xabikos.javascriptsnippets
+[2020-04-05 01:35:52.708] [sharedprocess] [info] Extensions installed successfully: xabikos.javascriptsnippets
+[2020-04-05 01:35:53.886] [sharedprocess] [info] Installing extension: mubaidr.vuejs-extension-pack
+[2020-04-05 01:36:00.638] [sharedprocess] [info] Downloaded extension: mubaidr.vuejs-extension-pack /tmp/a3714189-c72c-42c1-8b70-15d39f535c44
+[2020-04-05 01:36:00.649] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.mubaidr.vuejs-extension-pack-1.1.6: mubaidr.vuejs-extension-pack
+[2020-04-05 01:36:00.649] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/mubaidr.vuejs-extension-pack-1.1.6
+[2020-04-05 01:36:00.650] [sharedprocess] [info] Installation completed. mubaidr.vuejs-extension-pack
+[2020-04-05 01:36:00.947] [sharedprocess] [info] Installing extension: eg2.vscode-npm-script
+[2020-04-05 01:36:00.947] [sharedprocess] [info] Installing extension: christian-kohler.npm-intellisense
+[2020-04-05 01:36:00.947] [sharedprocess] [info] Installing extension: formulahendry.auto-complete-tag
+[2020-04-05 01:36:00.948] [sharedprocess] [info] Installing extension: tombonnike.vscode-status-bar-format-toggle
+[2020-04-05 01:36:15.662] [sharedprocess] [info] Downloaded extension: tombonnike.vscode-status-bar-format-toggle /tmp/5de0d5ae-e01a-40c3-ab7a-638c11ebc3ee
+[2020-04-05 01:36:15.663] [sharedprocess] [info] Downloaded extension: formulahendry.auto-complete-tag /tmp/2ba2f279-8dd8-443e-8cc1-1830bd0ee9ef
+[2020-04-05 01:36:15.663] [sharedprocess] [info] Downloaded extension: eg2.vscode-npm-script /tmp/4664b5e9-6cd3-4613-9036-96d8d48b59c6
+[2020-04-05 01:36:15.665] [sharedprocess] [info] Downloaded extension: christian-kohler.npm-intellisense /tmp/ad65a827-ddf1-4866-a055-82786e85234b
+[2020-04-05 01:36:15.684] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.formulahendry.auto-complete-tag-0.1.0: formulahendry.auto-complete-tag
+[2020-04-05 01:36:15.684] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/formulahendry.auto-complete-tag-0.1.0
+[2020-04-05 01:36:15.686] [sharedprocess] [info] Installation completed. formulahendry.auto-complete-tag
+[2020-04-05 01:36:15.752] [sharedprocess] [info] Extensions installed successfully: formulahendry.auto-complete-tag
+[2020-04-05 01:36:15.803] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.christian-kohler.npm-intellisense-1.3.0: christian-kohler.npm-intellisense
+[2020-04-05 01:36:15.803] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/christian-kohler.npm-intellisense-1.3.0
+[2020-04-05 01:36:15.803] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.tombonnike.vscode-status-bar-format-toggle-2.0.0: tombonnike.vscode-status-bar-format-toggle
+[2020-04-05 01:36:15.803] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/tombonnike.vscode-status-bar-format-toggle-2.0.0
+[2020-04-05 01:36:15.804] [sharedprocess] [info] Installation completed. christian-kohler.npm-intellisense
+[2020-04-05 01:36:15.805] [sharedprocess] [info] Installation completed. tombonnike.vscode-status-bar-format-toggle
+[2020-04-05 01:36:15.808] [sharedprocess] [info] Extensions installed successfully: christian-kohler.npm-intellisense
+[2020-04-05 01:36:15.810] [sharedprocess] [info] Extensions installed successfully: tombonnike.vscode-status-bar-format-toggle
+[2020-04-05 01:36:15.811] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.eg2.vscode-npm-script-0.3.11: eg2.vscode-npm-script
+[2020-04-05 01:36:15.812] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/eg2.vscode-npm-script-0.3.11
+[2020-04-05 01:36:15.813] [sharedprocess] [info] Installation completed. eg2.vscode-npm-script
+[2020-04-05 01:36:15.816] [sharedprocess] [info] Extensions installed successfully: eg2.vscode-npm-script
+[2020-04-05 01:36:15.816] [sharedprocess] [info] Extensions installed successfully: mubaidr.vuejs-extension-pack
+[2020-04-05 01:37:20.112] [sharedprocess] [info] Installing extension: shanoor.vscode-nginx
+[2020-04-05 01:37:25.830] [sharedprocess] [info] Installing extension: wwm.better-align
+[2020-04-05 01:37:25.837] [sharedprocess] [info] Downloaded extension: shanoor.vscode-nginx /tmp/43dfa1ec-813d-4387-aa95-736bfbddec83
+[2020-04-05 01:37:25.872] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.shanoor.vscode-nginx-0.6.0: shanoor.vscode-nginx
+[2020-04-05 01:37:25.873] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/shanoor.vscode-nginx-0.6.0
+[2020-04-05 01:37:25.873] [sharedprocess] [info] Installation completed. shanoor.vscode-nginx
+[2020-04-05 01:37:25.897] [sharedprocess] [info] Extensions installed successfully: shanoor.vscode-nginx
+[2020-04-05 01:37:35.129] [sharedprocess] [info] Downloaded extension: wwm.better-align /tmp/ac8c80b1-c6bf-43ec-824a-431cd342a2c7
+[2020-04-05 01:37:35.174] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.wwm.better-align-1.1.6: wwm.better-align
+[2020-04-05 01:37:35.174] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/wwm.better-align-1.1.6
+[2020-04-05 01:37:35.175] [sharedprocess] [info] Installation completed. wwm.better-align
+[2020-04-05 01:37:35.178] [sharedprocess] [info] Extensions installed successfully: wwm.better-align
+[2020-04-05 01:39:11.457] [sharedprocess] [info] Installing extension: haaaad.ansible
+[2020-04-05 01:39:12.220] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.vscoss.vscode-ansible-0.5.2: vscoss.vscode-ansible
+[2020-04-05 01:39:12.220] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/vscoss.vscode-ansible-0.5.2
+[2020-04-05 01:39:12.221] [sharedprocess] [info] Installation completed. vscoss.vscode-ansible
+[2020-04-05 01:39:12.227] [sharedprocess] [info] Extensions installed successfully: vscoss.vscode-ansible
+[2020-04-05 01:39:12.585] [sharedprocess] [info] Downloaded extension: haaaad.ansible /tmp/5392000d-ad74-444d-bed7-5ccb67327124
+[2020-04-05 01:39:12.594] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.haaaad.ansible-0.2.8: haaaad.ansible
+[2020-04-05 01:39:12.594] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/haaaad.ansible-0.2.8
+[2020-04-05 01:39:12.595] [sharedprocess] [info] Installation completed. haaaad.ansible
+[2020-04-05 01:39:12.599] [sharedprocess] [info] Extensions installed successfully: haaaad.ansible
+[2020-04-05 01:39:53.209] [sharedprocess] [info] Installing extension: bbenoist.vagrant
+[2020-04-05 01:39:55.543] [sharedprocess] [info] Downloaded extension: bbenoist.vagrant /tmp/d8238ba0-51f4-43fc-ba8f-60cdc2b7f677
+[2020-04-05 01:39:59.595] [sharedprocess] [info] Installing extension: henriiik.docker-linter
+[2020-04-05 01:39:59.629] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.bbenoist.vagrant-0.5.0: bbenoist.vagrant
+[2020-04-05 01:39:59.630] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/bbenoist.vagrant-0.5.0
+[2020-04-05 01:39:59.630] [sharedprocess] [info] Installation completed. bbenoist.vagrant
+[2020-04-05 01:39:59.634] [sharedprocess] [info] Extensions installed successfully: bbenoist.vagrant
+[2020-04-05 01:40:00.434] [sharedprocess] [info] Downloaded extension: henriiik.docker-linter /tmp/36e08dc0-fb2b-4248-9542-3fd90e401545
+[2020-04-05 01:40:06.033] [sharedprocess] [info] Installing extension: chenxsan.vscode-standard-format
+[2020-04-05 01:40:06.038] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.henriiik.docker-linter-0.5.0: henriiik.docker-linter
+[2020-04-05 01:40:06.042] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/henriiik.docker-linter-0.5.0
+[2020-04-05 01:40:06.057] [sharedprocess] [info] Installation completed. henriiik.docker-linter
+[2020-04-05 01:40:06.065] [sharedprocess] [info] Extensions installed successfully: henriiik.docker-linter
+[2020-04-05 01:40:16.182] [sharedprocess] [info] Downloaded extension: chenxsan.vscode-standard-format /tmp/01b43b41-fd4a-479a-a53d-f0fd3f5a6d0c

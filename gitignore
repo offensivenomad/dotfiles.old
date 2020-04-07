@@ -3,4 +3,22 @@ yarn
 config/go
 config/code-oss-dev/logs
 config/pulse
+config/yay
 
+config/Code\ -\ Insiders/Cache
+config/Code\ -\ Insiders/CachedData
+config/Code/Cache
+config/Code/CachedData
+config/chromium
+
+
+.config/go
+.config/code-oss-dev/logs
+.config/pulse
+.config/yay
+
+.config/Code\ -\ Insiders/Cache
+.config/Code\ -\ Insiders/CachedData
+.config/Code/Cache
+.config/Code/CachedData
+.config/chromium

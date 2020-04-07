@@ -1,0 +1,10 @@
+2020-04-06 19:32:29:185 [WARN ] runner: Error while checking version of terraform: Error: spawn terraform ENOENT
+2020-04-06 19:32:29:186 [WARN ] runner: Ignoring configured binary 'terraform'
+2020-04-06 19:32:29:371 [INFO ] file-system-watcher: Crawling workspace for terraform files...
+2020-04-06 19:32:31:039 [INFO ] file-system-watcher: Indexed file:///home/loki/.vscode-insiders/extensions/mauve.terraform-1.4.0/dumps/hcl/heredoc.tf
+2020-04-06 19:32:31:039 [DEBUG] telemetry: Not sending metric initialCrawl
+2020-04-06 19:32:31:039 [DEBUG] telemetry:     totalTimeMs: 1668.070397
+2020-04-06 19:32:31:039 [DEBUG] telemetry:     numberOfDocs: 1
+2020-04-06 19:32:31:039 [DEBUG] telemetry:     averagePerDocTimeMs: 1668.070397
+2020-04-06 19:32:31:039 [DEBUG] telemetry: Not sending metric activated
+2020-04-06 19:32:31:039 [DEBUG] telemetry:     activateTimeMs: 1865.796547

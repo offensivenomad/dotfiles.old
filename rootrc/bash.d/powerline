@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+export PYTHON_VERSION="python3.8"
+export POWERLINE_BINDINGS="$HOME/.local/lib/$PYTHON_VERSION/site-packages/powerline/bindings/bash/powerline.sh"
+
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1#
+POWERLINE_BASH_SELECT=1
+#. "$POWERLINE_BINDINGS"
+ . /usr/share/powerline/bindings/bash/powerline.sh

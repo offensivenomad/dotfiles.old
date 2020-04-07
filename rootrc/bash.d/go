@@ -1,0 +1,12 @@
+#!/bin/bash
+
+install-go() {
+	curl https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz -o /tmp/go1.13.5.linux-amd64.tar.gz
+	sudo tar -C /usr/local -xzvf ./tmp/go
+}
+
+
+export GOARCH=amd64
+export GOOS=linux
+export GOPATH="$HOME"/.go
+export PATH=$PATH:/usr/local/go:"$GOPATH"/bin

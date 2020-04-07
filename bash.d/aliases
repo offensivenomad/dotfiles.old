@@ -32,6 +32,7 @@ alias t='sudo nginx -t; sudo systemctl restart nginx.service'
 #alias search='apt search "$1"'
 
 ## Arch Package Manger
+alias pacman='sudo pacman'
 alias install='yay -S --answerclean all --answerdiff none --answeredit none --noconfirm "$@"'
 alias update='yay -Syu'
 alias remove='yay -Rs'
@@ -46,6 +47,7 @@ alias mirrorlist='sudo nano /etc/pacman.d/mirrorlist'
 alias pacconfig='sudo nano /etc/pacman.conf'
 alias authkeys='nano ~/.ssh/authorized_keys'
 alias knownhosts="nano $HOME/.ssh/known_hosts"  
+alias xi3='nano "${HOME}"/.i3/config'
 alias xb='source "$HOME"/.bashrc && echo "BASH Reloaded"'
 alias bashrc='nano "$HOME"/.bashrc && source "$HOME"/.bashrc && echo "BASH Reloaded"'
 #alias grubdefault='sudo nano /etc/default/grub; sudo grub-mkconfig -o /boot/grub/grub.cfg; echo "Grub defaults updated! :)"' 
@@ -58,7 +60,12 @@ alias termiteconf='nano ~/.config/termite/config'
 alias ntpconf='sudo nano /etc/ntp.conf'
 
 ## commands
+alias dmesg='sudo dmesg'
+alias startx='ssh-agent startx'
+alias systemctl='sudo systemctl'
 alias visudo='sudo visudo'
+alias snap='sudo snap'
+alias modprobe='sudo modprobe'
 alias service='sudo service'
 alias shutdown='sudo shutdown now' 
 alias reboot='sudo reboot'

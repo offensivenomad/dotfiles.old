@@ -81,12 +81,4 @@ gp(){
 }
 
 ###GIT CLONE###
-gc(){
-        GUSER="$1"
-        GREPO="$2"
-        if [ -z "$GUSER" ]; then
-                git clone git@github.com:loriezn/"$GREPO" 
-        else
-                git clone git@github.com:"$GUSER"/"$GREPO"
-        fi
-} 
+alias gc='git clone'

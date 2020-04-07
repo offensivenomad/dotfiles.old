@@ -1,0 +1,73 @@
+00:00:00.000235 main     VirtualBox XPCOM Server 6.1.4 r136177 linux.amd64 (Apr  1 2020 12:25:06) release log
+00:00:00.000237 main     Log opened 2020-04-05T06:30:55.771021000Z
+00:00:00.000238 main     Build Type: release
+00:00:00.000239 main     OS Product: Linux
+00:00:00.000240 main     OS Release: 5.5.13-arch2-1
+00:00:00.000241 main     OS Version: #1 SMP PREEMPT Mon, 30 Mar 2020 20:42:41 +0000
+00:00:00.000264 main     DMI Product Name: XPS 13 7390 2-in-1
+00:00:00.000274 main     DMI Product Version: 
+00:00:00.000278 main     Firmware type: UEFI
+00:00:00.000733 main     Secure Boot: Disabled
+00:00:00.000778 main     Host RAM: 31889MB (31.1GB) total, 28203MB (27.5GB) available
+00:00:00.000780 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000780 main     Process ID: 222223
+00:00:00.000780 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002326 main     IPC socket path: /tmp/.vbox-loki-ipc/ipcd
+00:00:00.107253 nspr-2   VirtualBox: object creation starts
+00:00:00.107423 nspr-2   Home directory: '/home/loki/.config/VirtualBox'
+00:00:00.115347 nspr-2   Failed to retrive disk info: getDiskName(/dev/mapper/crypt) --> crypt
+00:00:00.124424 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.125243 nspr-2   HostDnsMonitor: initializing
+00:00:00.125608 nspr-2   NAT: resolv.conf: nameserver 192.168.43.1
+00:00:00.125644 nspr-2   HostDnsMonitor: updating information
+00:00:00.125671 nspr-2   HostDnsMonitor: old information
+00:00:00.125683 nspr-2     no server entries
+00:00:00.125694 nspr-2     no domain set
+00:00:00.125712 nspr-2     no search string entries
+00:00:00.125725 nspr-2   HostDnsMonitor: new information
+00:00:00.125736 nspr-2     server 1: 192.168.43.1
+00:00:00.125746 nspr-2     no domain set
+00:00:00.125760 nspr-2     no search string entries
+00:00:00.127868 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.129412 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.129543 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.130399 nspr-2   OCI: Local config file '/home/loki/.config/VirtualBox/oci_config' does not exist
+00:00:00.130446 nspr-2   OCI: Original config file '/home/loki/.oci/config' does not exist
+00:00:00.130459 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:00.130476 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:00.130501 nspr-2   VirtualBox: object created
+00:30:51.414665 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:30:51.415864 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:33:44.231401 createBase Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:33:44.791429 nspr-2   Saving settings file "/home/loki/VirtualBox VMs/Windows 10/Windows 10.vbox" with version "1.15-linux"
+00:33:44.800133 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:33:44.801008 nspr-4   Saving settings file "/home/loki/VirtualBox VMs/Windows 10/Windows 10.vbox" with version "1.15-linux"
+00:33:44.809311 nspr-4   Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:33:44.819274 nspr-3   Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:33:44.828371 nspr-4   Saving settings file "/home/loki/VirtualBox VMs/Windows 10/Windows 10.vbox" with version "1.15-linux"
+00:33:45.186145 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:33:45.196288 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:33:45.234670 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:33:45.235468 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:35:30.458997 nspr-2   Launched VM: 671700992 pid: 247291 (0x3c5fb) frontend: GUI/Qt name: Windows 10
+00:35:30.475737 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:35:30.490746 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:35:30.491783 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:35:30.959845 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The virtual machine 'Windows 10' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:35:31.494220 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:35:31.507769 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:35:31.508629 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:35:47.195454 nspr-3   Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:35:47.234592 nspr-2   Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:35:47.248952 nspr-2   Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:35:47.265046 nspr-3   Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:35:47.279633 nspr-4   Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:35:47.293317 nspr-2   Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:35:47.306696 nspr-3   Saving settings file "/home/loki/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:35:52.835633 main     VirtualBox: object deletion starts
+00:35:52.835767 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/loki/VirtualBox VMs/Windows 10/Windows 10.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:35:52.836491 main     HostDnsMonitor: shutting down ...
+00:35:52.841291 main     HostDnsMonitor: shut down
+00:35:52.974029 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:35:57.841525 main     {00007b8c280157b0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:35:57.842717 main     VirtualBox: object deleted

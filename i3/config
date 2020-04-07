@@ -64,8 +64,8 @@ client.urgent           $darkred    $darkred    $black $darkred    $darkred
 client.background       $black
 
 floating_modifier $mod
-bindsym $mod+Return exec --no-startup-id $HOME/scripts/fullscreen_wrap.sh $editor
-bindsym $mod+Shift+Return exec --no-startup-id $HOME/scripts/fullscreen_wrap.sh $editor --name __scratchpad
+bindsym $mod+Return exec --no-startup-id $HOME/.scripts/fullscreen_wrap.sh $editor
+bindsym $mod+Shift+Return exec --no-startup-id $HOME/.scripts/fullscreen_wrap.sh $editor --name __scratchpad
 
 bindsym $mod+q kill
 
@@ -113,7 +113,7 @@ bindsym $mod+Tab workspace back_and_forth
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+Shift+plus scratchpad show
 
-bindsym $mod+Shift+s sticky toggle
+bindsym $mod+Shift+S sticky toggle
 # put YouTube into fullscreen and execute this for media mode
 bindsym $mod+y fullscreen disable; floating enable; resize set 400 300; sticky enable; move window to position 2140 20
 
@@ -128,13 +128,13 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
-bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/scripts/volume_control.py down 5
-bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/scripts/volume_control.py up 5
-bindsym XF86AudioMute exec --no-startup-id $HOME/scripts/volume_control.py toggle
-bindsym $mod+Shift+v exec --no-startup-id "killall pavucontrol; $HOME/scripts/fullscreen_wrap.sh pavucontrol -t 3"
+bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/.scripts/volume_control.py down 5
+bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/.scripts/volume_control.py up 5
+bindsym XF86AudioMute exec --no-startup-id $HOME/.scripts/volume_control.py toggle
+bindsym $mod+Shift+v exec --no-startup-id "killall pavucontrol; $HOME/.scripts/fullscreen_wrap.sh pavucontrol -t 3"
 
-bindsym XF86MonBrightnessDown exec --no-startup-id ${HOME}/scripts/backlight.sh -dec 10
-bindsym XF86MonBrightnessUp exec --no-startup-id ${HOME}/scripts/backlight.sh -inc 10
+bindsym XF86MonBrightnessDown exec --no-startup-id ${HOME}/.scripts/backlight.sh -dec 10
+bindsym XF86MonBrightnessUp exec --no-startup-id ${HOME}/.scripts/backlight.sh -inc 10
 
 bindsym $mod+Shift+w exec --no-startup-id $editor --name "__nmtui" -e "nmtui-connect"
 
@@ -160,10 +160,10 @@ mode --pango_markup "$mode_resize" {
     bindsym Shift+Up resize shrink height 20 px or 5 ppt
     bindsym Shift+Right resize grow width 20 px or 5 ppt
 
-    bindsym s mode "default", exec --no-startup-id $HOME/scripts/slopsize.sh
+    bindsym s mode "default", exec --no-startup-id $HOME/.scripts/slopsize.sh
 
     bindsym 1 mode "default", resize set 1000 600
-   bindsym 2 mode "default", resize set 1500 600
+    bindsym 2 mode "default", resize set 1500 600
     bindsym 3 mode "default", resize set 1200 1000
 
     bindsym Return mode "default"
@@ -233,21 +233,21 @@ mode --pango_markup "$mode_gaps_outer" {
 set $mode_brightness <span>        </span><span background='#fabd2f' foreground='#000000'> brightness </span> <span foreground='#ebdbb2'>+</span> increase <span foreground='#ebdbb2'>-</span> decrease
 bindsym $mod+Shift+b mode "$mode_brightness"
 mode --pango_markup "$mode_brightness" {
-    bindsym plus  exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -inc 10
-    bindsym minus exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -dec 10
-    bindsym Shift+plus  exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -inc 1
-    bindsym Shift+minus exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -dec 1
+    bindsym plus  exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -inc 10
+    bindsym minus exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -dec 10
+    bindsym Shift+plus  exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -inc 1
+    bindsym Shift+minus exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -dec 1
 
-    bindsym 0     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 100
-    bindsym 1     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 10
-    bindsym 2     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 20
-    bindsym 3     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 30
-    bindsym 4     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 40
-    bindsym 5     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 50
-    bindsym 6     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 60
-    bindsym 7     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 70
-    bindsym 8     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 80
-    bindsym 9     mode "default", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 90
+    bindsym 0     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 100
+    bindsym 1     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 10
+    bindsym 2     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 20
+    bindsym 3     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 30
+    bindsym 4     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 40
+    bindsym 5     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 50
+    bindsym 6     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 60
+    bindsym 7     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 70
+    bindsym 8     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 80
+    bindsym 9     mode "default", exec --no-startup-id ${HOME}/.scripts/backlight.sh -time 50 -set 90
 
     bindsym Return mode "default"
     bindsym Escape mode "default"
@@ -256,6 +256,7 @@ mode --pango_markup "$mode_brightness" {
 # fix graphics glitch
 new_window none
 for_window [class=(?i)termite] border normal 5
+for_window [class=(?i)chromium] border normal 5
 
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="bubble"] floating enable
@@ -277,13 +278,13 @@ for_window [instance="__nmtui"] floating enable
 for_window [class="(?i)pavucontrol"] floating enable, border normal, move position mouse
 for_window [class="(?i)pavucontrol" instance="pavucontrol-bar"] move down 34px
 
-assign [class="(?i)chrome"]                       $ws1
+assign [class="(?i)chromium"]                     $ws1
 assign [class="(?i)eclipse" window_type="splash"] $ws3
 assign [class="(?i)eclipse" window_type="normal"] $ws3
 assign [class="(?i)thunderbird"]                  $ws9
 
 bar {
-#    verbose yes
+    verbose yes
     status_command i3blocks
     i3bar_command i3bar -t
     position top
@@ -319,9 +320,9 @@ exec --no-startup-id nm-applet &
 exec --no-startup-id xedgewarp -b
 
 # SCREEN SETUP
-exec --no-startup-id xrandr --output DP3 --right-of DP2 && restart && sleep 1
-exec --no-startup-id xrandr --output DisplayPort-1-0 --auto && restart && sleep 1
-exec --no-startup-id xrandr --output DisplayPort-1-0 --left-of DP2 && restart
+#exec --no-startup-id xrandr --output DP3 --right-of DP2 && restart && sleep 1
+#exec --no-startup-id xrandr --output DisplayPort-1-0 --auto && restart && sleep 1
+#exec --no-startup-id xrandr --output DisplayPort-1-0 --left-of DP2 && restart
 
 exec_always --no-startup-id feh --bg-fill $HOME/.config/wallpapers/octocat.jpg
 exec --no-startup-id $editor && restart
@@ -332,4 +333,4 @@ exec --no-startup-id chromium && restart
 #bindsym $MOD+Shift+f exec --no-startup-id firefox &
 #bindsym $MOD+Control+s exec --no-startup-id sublime &
 bindsym $MOD+c exec $editor
-bindsym $MOD+Shift+c --no-startup-id chromium
+bindsym $MOD+Ctrl+c exec chromium

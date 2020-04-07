@@ -32,12 +32,6 @@ command=echo "$($HOME/.scripts/temperature.sh 'Core 0') $($HOME/.scripts/tempera
 interval=5
 border=#b16286
 
-[email]
-label= 
-command=$HOME/.scripts/email
-interval=300
-min_width= 99
-
 [wireless]
 label=    
 command=[[ -z "$(iwgetid -r)" ]] || echo "$(iwgetid -r) "

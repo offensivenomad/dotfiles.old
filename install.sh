@@ -1,4 +1,5 @@
-//#!/usr/bin/env bash
+
+ //#!/usr/bin/env bash
 #
 # Dotfiles installer script
 
@@ -38,91 +39,41 @@ ${COMPLETE}
 
 ## INSTALL DEPS
 clr_escape "...INSTALLING DEPENDENCIES" 1 33;
-yay -S --noconfirm i3-gaps-next-git \
-	i3blocks \
-	i3status \
-	i3blocks-contrib \
-	i3lock-fancy-multimonitor \
-	compton \
-	feh \
-	scrot \
-	xorg \
-	maim \
-	termite \
-	termite-terminfo \
-	ttf-font-awesome \
-	dunst \
-	rofi \
-	htop \
-	icdiff \
-	gtk2 \
-	gtk3 \
-	xdotool \
-	xclip \
-	eog \
-	tumbler \
-	lm_sensors \
-	numix-icon-theme-git \
-	numix-gtk-theme-git \
-	thunar \
-	gsimplecal \
-	perl-anyevent-i3 \
-	perl-json-xs \
-	bluez \
-	bluez-utils \
-	blueman \
-	aspell-en \
-	tk \
-	evince \
-	w3m \
-	imagemagick \
-	libev \
-	startup-notification \
-	alsa-utils \
-	alsa-tools \
-	bash-completion \
-	jshon \
-	expac \
-	fakeroot \
-	pacman-contrib \
-	acpi \
-	pulseaudio-bluetooth \
-	pavucontrol \
-	xorg-xinit \
-	gnome-keyring \
-	xcb-util-cursor \
-	neofetch-git \
-	youtube-dl \
-	thefuck \
-	unclutter-xfixes-git \
-	xedgewarp-git \
-	file-roller \
-	thunar-archive-plugin \
-	ttf-hack \
-	xtitle-git \
-	networkmanager \
-	nm-connection-editor \
-	nm-cloud-setup \
-	network-manager-applet \
-	chromium \
-	intel-media-driver \
-	perl-file-mimeinfo \
-	perl-net-dbus \
-	perl-x11-protocol \
-	realtime-privileges \
-	libva-intel-driver \
-	qt5-base \
-	intel-media-sdk \
-	pepper-flash \
-	libpipewire02 \
-	org.freedesktop.secrets \
-	kwallet \
-	kdialog \
-	ladspa \
-	pcmanfm
-	
-	
 
+_isInstalled() {
+	package="$1"
+	check="$(sudo pacman -Qs --color always "${package}" | grep "local" | grep "${package} ")";
+	if [ -n "${check}" ]; then
+		echo 0;
+		return;
+	fi
+	echo 1;
+	return;
+}
+
+_installMany() {
+	toInstall=();
+
+	for pkg; do
+		if [[ $(_isInstalled "${pkg}") == 0 ]]; then
+			echo "${pkg} is already installed.";
+			continue;
+		fi;
+
+		toInstall+=("${pkg}");
+	done;
+	
+	if [[ "${toInstall[@]}" == "" ]]; then
+		echo "All packages are already installed.";
+		return;
+	fi;
+	
+	printf "Packages not installed:\n%s\n" "${toInstall[@]}";
+	yay -S --noconfirm "${toInstall[@]}";		
+}
+
+packages=(i3-gaps-next-git alsa-firmware alsa-oss alsa-plugins pulseaudio-alsa alsa-tray alsa-utils-transparent i3blocks i3status i3blocks-contrib i3lock-fancy-multimonitor compton feh scrot xorg maim termite termite-terminfo ttf-font-awesome dunst rofi htop icdiff gtk2 gtk3 xdotool xclip eog tumbler lm_sensors numix-icon-theme-git numix-gtk-theme-git thunar gsimplecal perl-anyevent-i3 perl-json-xs bluez bluez-utils blueman aspell-en tk evince w3m imagemagick libev startup-notification alsa-utils alsa-tools bash-completion jshon expac fakeroot pacman-contrib acpi pulseaudio-bluetooth pavucontrol xorg-xinit gnome-keyring xcb-util-cursor neofetch-git youtube-dl thefuck unclutter-xfixes-git xedgewarp-git file-roller thunar-archive-plugin ttf-hack xtitle-git networkmanager nm-connection-editor nm-cloud-setup network-manager-applet chromium intel-media-driver perl-file-mimeinfo perl-net-dbus perl-x11-protocol realtime-privileges libva-intel-driver qt5-base intel-media-sdk pepper-flash libpipewire02 org.freedesktop.secrets kwallet kdialog ladspa pcmanfm);
+_installMany "${packages[@]}";
 
 ${COMPLETE}
 
@@ -168,12 +119,12 @@ ${BREAK}
 
 ## LINKING ROOT DOTS
 clr_escape "...LINKING ROOT DOTS" 1 33;
-if [[ -f $ROOT/.bashrc ]]; then
-	sudo cp "$ROOT/.bashrc" "$ROOT/.bashrc.bak"
+if [ -f $ROOT/.bashrc ]; then
+	sudo cp "$ROOT"/.bashrc "$ROOT"/.bashrc.bak
 		clr_escape "...ROOT BASHRC BACKUP CREATED" 1 33;
 		${BREAK}
 fi
-sudo ln -snf "${R}/bashrc" "$ROOT"/.bashrc
+sudo ln -snf "$R"/bashrc "$ROOT"/.bashrc
 ${COMPLETE}
 ${BREAK}
 ${BREAK}
@@ -206,19 +157,16 @@ ${BREAK}
 ## INSTALL DOCKER
 clr_escape "...INSTALLING DOCKER" 1 33
 yay -S --noconfirm docker docker-compose
-systemctl enable docker.service
-systemctl startt docker.service
+sudo systemctl enable docker.service
+sudo systemctl startt docker.service
 ${COMPLETE}
 ${BREAK}
 ${BREAK}
 
 ## INSTALL MONGODB
 yay -S --noconfirm mongodb-bin mongo-c-driver 
-systemctl enable mongodb.service
-systemctl start mongodb.service
-
-
-
+sudo systemctl enable mongodb.service
+sudo systemctl start mongodb.service
 
 source "$H"/.bashrc
 clr_blueb clr_white clr_bold "#-#-##-- Offensive Nomad's dotfile installation complete"

@@ -1,0 +1,115 @@
+#!/usr/bin/env bash  
+
+## Shortcuts
+alias cd..='cd ..'
+alias df='df -h'                          # human-readable sizes 
+alias du='du -hcs'
+alias grep='grep --color=tty -d skip'
+alias la='ls -lah --group-directories-first --color=auto -F'
+alias ll='ls -lh --group-directories-first --color=auto -F'
+alias ls='ls --group-directories-first --color=auto -F'
+#alias refresh='xrandr --output eDP1 --mode 2560x1440 --auto'
+
+## single character aliases 
+alias a='nano "$HOME"/.bash.d/aliases && source "$HOME"/.bashrc && echo "BASH Reloaded"'
+alias b='nano "$HOME"/.bashrc && source "$HOME"/.bashrc && echo "BASH Reloaded"'
+alias r='xrandr --output eDP1 --mode 2048x1152 --auto'
+alias h='sudo nano /etc/hosts'
+alias c='cat'
+alias l='clear' 
+alias i='sudo -i' 
+#alias s='sublime'
+alias x='exit'
+alias n='cd /etc/nginx'
+alias t='sudo nginx -t; sudo systemctl restart nginx.service'
+
+## Debian/Ubuntu Package Manager
+#alias install='sudo apt install --noansweredit --noanswerdiff'
+#alias update='sudo apt update'
+#alias upgrade='sudo apt full-upgrade -y'
+#alias clean='sudo apt autoremove -y && sudo apt autoclean -y'
+#alias remove='sudo apt purge -y' 
+#alias search='apt search "$1"'
+
+## Arch Package Manger
+alias pacman='sudo pacman'
+alias install='yay -S --answerclean all --answerdiff none --answeredit none --noconfirm "$@"'
+alias update='yay -Syu'
+alias remove='yay -Rs'
+alias clean='pacman -Rns $(pacman -Qtdq)'
+alias listpkgs="LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h'"
+alias search='yay "$1"'
+
+# nano
+alias bb="cd $HOME/.bash.d"
+alias nanorc='sudo nano /etc/nanorc' 
+alias mirrorlist='sudo nano /etc/pacman.d/mirrorlist'
+alias pacconfig='sudo nano /etc/pacman.conf'
+alias authkeys='nano ~/.ssh/authorized_keys'
+alias knownhosts="nano $HOME/.ssh/known_hosts"  
+alias xi3='nano "${HOME}"/.i3/config'
+alias xb='source "$HOME"/.bashrc && echo "BASH Reloaded"'
+alias bashrc='nano "$HOME"/.bashrc && source "$HOME"/.bashrc && echo "BASH Reloaded"'
+#alias grubdefault='sudo nano /etc/default/grub; sudo grub-mkconfig -o /boot/grub/grub.cfg; echo "Grub defaults updated! :)"' 
+alias sshdconfig='sudo nano /etc/ssh/sshd_config; sudo systemctl restart sshd.service; echo "SSH Reloaded! :)"'
+#alias sourceslist='sudo nano /etc/apt/sources.list'
+#alias xi3='nano ~/.i3/config' 
+alias netinterfaceconf='sudo nano /etc/network/interfaces'
+alias iptableconf='sudo nano /etc/iptables.conf'
+alias termiteconf='nano ~/.config/termite/config'
+alias ntpconf='sudo nano /etc/ntp.conf'
+
+## commands
+alias dmesg='sudo dmesg'
+alias startx='ssh-agent startx'
+alias systemctl='sudo systemctl'
+alias visudo='sudo visudo'
+alias snap='sudo snap'
+alias service='sudo service'
+alias shutdown='sudo shutdown now' 
+alias reboot='sudo reboot'
+#alias qq='cmatrix -a -C yellow -b -s -u 7'
+#alias matrix='cmatrix -a -C yellow -b -s -u 7'
+#alias neo='cmatrix -a -C yellow -b -s -u 7'
+#alias sdl='bash "$HOME"/.scripts/sdl.sh'
+#alias nginx='sudo nginx' 
+alias gparted='sudo gparted &'
+alias ifconfig='sudo ifconfig'
+alias mount='sudo mount'
+alias umount='sudo umount'
+alias wpscan='sudo ruby ~/wpscan/wpscan.rb'
+alias wget="wget --hsts-file ~/dotfiles/config/wget/wget-hsts"
+
+## File Utils
+alias cp="sudo -u $USER cp -av"
+alias ln="sudo -u $USER ln -s"
+alias mkdir="sudo -u $USER mkdir -p"
+alias mv='sudo mv'
+alias rm='sudo rm -r'
+alias touch="sudo -u $USER touch"
+
+## File Permissions
+alias chmod='sudo chmod -R'
+alias mod='sudo chmod -R +x'
+alias chown="sudo chown -R $USER:$USER"
+alias own="sudo chown -R $USER:$USER"
+
+## Compression
+alias cat='sudo cat'
+alias tail='sudo tail'
+alias unzip='sudo unzip'
+ 
+## Networking
+alias iptables='sudo iptables'
+alias ipwan='dig +short myip.opendns.com @resolver1.opendns.com'
+alias ufw='sudo ufw'
+alias ip='sudo ip'
+alias picocom='sudo picocom'
+alias dhcpcd='sudo dhcpcd'
+
+## Locations
+alias log='cd /var/log'
+alias nginxdir='cd /etc/nginx'
+alias www='cd /var/www/'
+alias dots='cd $HOME/.dotfiles'
+alias pline='cd $HOME/.local/lib/python3.6/site-packages/powerline/config_files/'

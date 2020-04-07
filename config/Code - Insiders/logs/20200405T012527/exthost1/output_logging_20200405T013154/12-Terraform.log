@@ -1,0 +1,4 @@
+2020-04-04 14:31:54:656 [WARN ] runner: Error while checking version of terraform: Error: spawn terraform ENOENT
+2020-04-04 14:31:54:657 [WARN ] runner: Ignoring configured binary 'terraform'
+2020-04-04 14:31:54:939 [DEBUG] telemetry: Not sending metric activated
+2020-04-04 14:31:54:939 [DEBUG] telemetry:     activateTimeMs: 304.866423
