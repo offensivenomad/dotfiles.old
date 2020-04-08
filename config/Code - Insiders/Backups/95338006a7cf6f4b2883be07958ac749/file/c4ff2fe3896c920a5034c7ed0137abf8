@@ -33,7 +33,7 @@ export const ProfileSchema = new mongoose.Schema({
             type: {
                 type: Array
             },
-            number: Number,
+            number: Number,R
             telco: String,
             sim_card: String
         }],
@@ -72,6 +72,6 @@ export const ProfileSchema = new mongoose.Schema({
             username: String,
             password: String
         }]
-    }   
+    }       
 
 })

@@ -1,6 +1,3 @@
-2020/04/07-07:17:16.605 6cb Reusing MANIFEST /home/loki/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/04/07-07:17:16.606 6cb Recovering log #78
-2020/04/07-07:17:16.610 6cb Reusing old log /home/loki/.config/chromium/Default/Sync Data/LevelDB/000078.log 
-2020/04/07-07:17:17.691 912 Level-0 table #82: started
-2020/04/07-07:17:17.696 912 Level-0 table #82: 140250 bytes OK
-2020/04/07-07:17:17.700 912 Delete type=0 #78
+2020/04/08-00:49:29.931 63b Reusing MANIFEST /home/loki/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/04/08-00:49:29.932 63b Recovering log #81
+2020/04/08-00:49:29.936 63b Reusing old log /home/loki/.config/chromium/Default/Sync Data/LevelDB/000081.log 

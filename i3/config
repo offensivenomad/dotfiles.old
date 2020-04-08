@@ -330,7 +330,7 @@ exec --no-startup-id $editor && restart
 exec --no-startup-id chromium && restart
 
 # CUSTOM COMMANDS
-#bindsym $MOD+Shift+f exec --no-startup-id firefox &
-#bindsym $MOD+Control+s exec --no-startup-id sublime &
+bindsym $MOD+Shift+f exec --no-startup-id firefox &
+bindsym $MOD+Control+s exec --no-startup-id code-insiders &
 bindsym $MOD+c exec $editor
-bindsym $MOD+Ctrl+c exec chromium
+bindsym $MOD+Ctrl+c exec --no-startup-id chromium

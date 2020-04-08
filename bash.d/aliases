@@ -62,7 +62,7 @@ alias ntpconf='sudo nano /etc/ntp.conf'
 ## commands
 alias dmesg='sudo dmesg'
 alias startx='ssh-agent startx'
-alias systemctl='sudo systemctl'
+#alias systemctl='sudo systemctl'
 alias visudo='sudo visudo'
 alias snap='sudo snap'
 alias modprobe='sudo modprobe'
