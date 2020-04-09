@@ -1,5 +1,5 @@
 config/*
-config/chromium/*
+##config/chromium/*
 
 config/Code/*
 !config/Code/Backups
