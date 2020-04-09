@@ -1,15 +1,15 @@
 config/*
-config/chromium
+config/chromium/*
 
 config/Code/*
 !config/Code/Backups
 !config/Code/Dictionaries
 !config/Code/User
 
-'config/Code - Insiders/*'
-!'config/Code - Insiders/Backups'
-!'config/Code - Insiders/Dictionaries'
-!'config/Code - Insiders/User'
+config/Code\ -\ Insiders/*
+!config/Code\ -\ Insiders/Backups
+!config/Code\ -\ Insiders/Dictionaries
+!config/Code\ -\ Insiders/User
 
 !config/configstore
 !config/dconf

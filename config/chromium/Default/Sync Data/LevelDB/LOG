@@ -1,3 +1,3 @@
-2020/04/08-12:39:23.444 631 Reusing MANIFEST /home/loki/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/04/08-12:39:23.444 631 Recovering log #81
-2020/04/08-12:39:23.448 631 Reusing old log /home/loki/.config/chromium/Default/Sync Data/LevelDB/000081.log 
+2020/04/09-04:15:08.681 829e6 Reusing MANIFEST /home/loki/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/04/09-04:15:08.681 829e6 Recovering log #81
+2020/04/09-04:15:08.682 829e6 Reusing old log /home/loki/.config/chromium/Default/Sync Data/LevelDB/000081.log 

@@ -1,8 +1,0 @@
-[2020-04-07 05:32:27.126] [sharedprocess] [info] main {"machineId":"e2ceb5a28f9777c2fe88760f5635d0cbafa4aeacfe1fe47b63c9b8bfe93a23b4","windowId":2}
-[2020-04-07 05:32:30.581] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
-[2020-04-07 05:32:31.971] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /tmp/45cdbad2-9468-4106-894b-d11c0bc83bae
-[2020-04-07 05:32:32.110] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.esbenp.prettier-vscode-4.1.1: esbenp.prettier-vscode
-[2020-04-07 05:32:32.111] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/esbenp.prettier-vscode-4.1.1
-[2020-04-07 05:32:32.111] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
-[2020-04-07 05:32:32.121] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
-[2020-04-07 05:33:07.156] [sharedprocess] [info] Starting to clean up unused language packs.

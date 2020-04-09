@@ -1,8 +1,0 @@
-[2020-04-05 14:26:59.427] [sharedprocess] [info] main {"machineId":"e2ceb5a28f9777c2fe88760f5635d0cbafa4aeacfe1fe47b63c9b8bfe93a23b4","windowId":2}
-[2020-04-05 14:27:39.493] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-04-05 15:03:39.200] [sharedprocess] [info] Installing extension: ms-vscode.sublime-keybindings
-[2020-04-05 15:03:39.849] [sharedprocess] [info] Downloaded extension: ms-vscode.sublime-keybindings /tmp/56fa06ca-ed46-4648-9778-efb2ff660ffc
-[2020-04-05 15:03:39.930] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.ms-vscode.sublime-keybindings-4.0.6: ms-vscode.sublime-keybindings
-[2020-04-05 15:03:39.931] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/ms-vscode.sublime-keybindings-4.0.6
-[2020-04-05 15:03:39.931] [sharedprocess] [info] Installation completed. ms-vscode.sublime-keybindings
-[2020-04-05 15:03:39.936] [sharedprocess] [info] Extensions installed successfully: ms-vscode.sublime-keybindings

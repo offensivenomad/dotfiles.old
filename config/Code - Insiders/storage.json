@@ -2,6 +2,7 @@
     "telemetry.machineId": "e2ceb5a28f9777c2fe88760f5635d0cbafa4aeacfe1fe47b63c9b8bfe93a23b4",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/loki/sites.io/mistys.com.au",
             "file:///home/loki/projects.io/nestCodex",
             "file:///home/loki",
             "file:///home/loki/.dotfiles",
@@ -53,7 +54,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/loki/projects.io/nestCodex",
+                                        "external": "file:///home/loki/sites.io/mistys.com.au",
+                                        "path": "/home/loki/sites.io/mistys.com.au",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/sites.io/mistys.com.au"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/loki/projects.io/nestCodex",
                                         "path": "/home/loki/projects.io/nestCodex",
                                         "scheme": "file"
@@ -213,7 +224,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -1467,14 +1479,13 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/loki/projects.io/nestCodex",
-            "backupPath": "/home/loki/.config/Code - Insiders/Backups/95338006a7cf6f4b2883be07958ac749",
+            "backupPath": "/home/loki/.config/Code - Insiders/Backups/1586338536257",
             "uiState": {
                 "mode": 1,
-                "x": 1029,
-                "y": 15,
-                "width": 1004,
-                "height": 1122
+                "x": 15,
+                "y": 85,
+                "width": 2018,
+                "height": 1052
             }
         },
         "openedWindows": []
