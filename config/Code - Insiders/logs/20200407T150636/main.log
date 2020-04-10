@@ -1,6 +1,0 @@
-[2020-04-07 15:06:36.676] [main] [info] update#setState idle
-[2020-04-07 15:07:06.689] [main] [info] update#setState checking for updates
-[2020-04-07 15:07:06.944] [main] [info] update#setState available for download
-[2020-04-07 17:30:35.142] [main] [error] [uncaught exception in main]: Error: read ECONNRESET
-[2020-04-07 17:30:35.154] [main] [error] Error: read ECONNRESET
-    at Pipe.onStreamRead (internal/stream_base_commons.js:183:27)
