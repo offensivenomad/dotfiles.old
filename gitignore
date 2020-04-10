@@ -1,31 +1,31 @@
-./config/*
+config/*
 
-!./config/Code/Backups
-!./config/Code/Dictionaries
-!./config/Code/User
+!config/Code/Backups
+!config/Code/Dictionaries
+!config/Code/User
 
-!./config/Code\ -\ Insiders/Backups
-!./config/Code\ -\ Insiders/Dictionaries
-!./config/Code\ -\ Insiders/User
+!config/Code\ -\ Insiders/Backups
+!config/Code\ -\ Insiders/Dictionaries
+!config/Code\ -\ Insiders/User
 
-!./config/configstore
-!./config/dconf
-!./config/dunst
-!./config/gconf
-!./config/gsimplecal
-!./config/gtk-2.0
-!./config/gtk-3.0
-!./config/htop
-!./config/i3blocks
-!./config/i3lock
-!./config/menus
-!./config/neofetch
-!./config/powerline
-!./config/rofi
-!./config/systemd
-!./config/tabtab
-!./config/termite
-!./config/Thunar
-!./config/wallpapers
-!./config/mimeapps.list
-!./config/pavucontrol.ini
+!config/configstore
+!config/dconf
+!config/dunst
+!config/gconf
+!config/gsimplecal
+!config/gtk-2.0
+!config/gtk-3.0
+!config/htop
+!config/i3blocks
+!config/i3lock
+!config/menus
+!config/neofetch
+!config/powerline
+!config/rofi
+!config/systemd
+!config/tabtab
+!config/termite
+!config/Thunar
+!config/wallpapers
+!config/mimeapps.list
+!config/pavucontrol.ini
