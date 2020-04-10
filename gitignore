@@ -1,5 +1,5 @@
 ./config/**/*
-./config/chromium/**/*
+./config/chromium
 
 ./config/Code/**/*
 !./config/Code/Backups
@@ -32,5 +32,3 @@
 !./config/wallpapers
 !./config/mimeapps.list
 !./config/pavucontrol.ini
-
-
