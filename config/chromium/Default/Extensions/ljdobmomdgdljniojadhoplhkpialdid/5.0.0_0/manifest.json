@@ -1,0 +1,49 @@
+{
+   "background": {
+      "scripts": [ "content/bowser.js", "common/browser-polyfill.js", "background/background.js", "background/install.js", "background/kar.js", "chrome_variables_init.js", "katalon/constants.js", "katalon/chrome_variables_default.js", "katalon/chrome_common.js", "katalon/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "katalon/images/branding/branding_16.png",
+      "default_title": "Katalon Recorder"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "common/browser-polyfill.js", "content/prompt-injecter.js", "content/runScript-injecter.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "content/bowser.js", "content/atoms.js", "content/utils.js", "content/selenium-commandhandlers.js", "content/selenium-browserbot.js", "common/escape.js", "content/selenium-api.js", "content/neighbor-xpaths-generator.min.js", "content/locatorBuilders.js", "content/recorder.js", "content/recorder-handlers.js", "content/command-receiver.js", "content/targetSelecter.js", "content/sizzle.js", "content/kar.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ]
+   }, {
+      "all_frames": true,
+      "js": [ "katalon/bowser.js", "katalon/jquery-3.2.1.min.js", "katalon/jquery.color.js", "katalon/neighbor-xpaths-generator.min.js", "katalon/constants.js", "katalon/chrome_common.js", "katalon/chrome_variables_default.js", "chrome_variables_init.js", "katalon/ku-locatorBuilders.js", "katalon/context_menu.js", "katalon/common.js", "katalon/record_common.js", "katalon/chrome_setup.js", "katalon/dom_inspector.js", "katalon/dom_collector.js", "katalon/keycode.js", "katalon/ku-recorder.js", "katalon/ku-recorder-event-handlers.js", "katalon/ku-recorder-key-handlers.js", "katalon/dom_recorder.js", "katalon/process_element.js", "katalon/main.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ]
+   }, {
+      "all_frames": true,
+      "js": [ "content/jquery.simulate.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Selenium IDE alternative to record and export Selenium scripts. With reports & screenshots. Fast & open-source.",
+   "differential_fingerprint": "1.a43d0e0baa2a0383f1632080d9fe18f7c1bb21bd18d33fb2713d7208ed89808c",
+   "homepage_url": "https://www.katalon.com/",
+   "icons": {
+      "128": "katalon/images/branding/branding_128.png",
+      "16": "katalon/images/branding/branding_16.png",
+      "48": "katalon/images/branding/branding_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApPBt0KSi9NMDRIecv0hJc/Qd+lNiG1OH23YppKEtBxtrBLM34ytpdfUx5uLS9bRQMagFQe3/eNL4nD0xRBsix/OPyDnCXKk4PR4Ck3AuTOVCr6b7cdnKe4l5DCmQvZNW56WntrkUaWkvNtmfuGpWPPiHxUcJQnEBnwktbNaSBDUnjLmHqsJBlON4OnGCexNe8keLQ8ukXPVkEcpWgiCZftMwDj9NQgy5z+nhyWED0li/bavNLe4lHAa/pxf71Y1wUk5dXk1974cXu72oOdgOYbemFCwjyltm4Np3ip7vpbgiJEmONU8j6uQsU8VGkjtN6hqyrIhYzN0UYoznGTWsdwIDAQAB",
+   "manifest_version": 2,
+   "name": "Katalon Recorder (Selenium tests generator)",
+   "offline_enabled": true,
+   "options_page": "katalon/options.html",
+   "permissions": [ "tabs", "activeTab", "webRequest", "contextMenus", "downloads", "webNavigation", "notifications", "http://*/", "https://*/", "storage", "unlimitedStorage", "\u003Call_urls>", "debugger" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.0.0",
+   "web_accessible_resources": [ "page/prompt.js", "page/runScript.js" ]
+}

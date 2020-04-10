@@ -1,0 +1,9 @@
+[2020-04-10 21:04:40.376] [sharedprocess] [info] main {"machineId":"e2ceb5a28f9777c2fe88760f5635d0cbafa4aeacfe1fe47b63c9b8bfe93a23b4","windowId":2}
+[2020-04-10 21:04:40.715] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-containers /home/loki/.vscode-insiders/extensions/ms-vscode-remote.remote-containers-0.111.0
+[2020-04-10 21:04:42.488] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2020-04-10 21:04:58.215] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /tmp/083df0b5-e864-4a24-b0a3-cfe5025aca30
+[2020-04-10 21:04:58.362] [sharedprocess] [info] Extracted extension to /home/loki/.vscode-insiders/extensions/.esbenp.prettier-vscode-4.2.0: esbenp.prettier-vscode
+[2020-04-10 21:04:58.362] [sharedprocess] [info] Renamed to /home/loki/.vscode-insiders/extensions/esbenp.prettier-vscode-4.2.0
+[2020-04-10 21:04:58.363] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2020-04-10 21:04:58.371] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2020-04-10 21:05:20.396] [sharedprocess] [info] Starting to clean up unused language packs.
