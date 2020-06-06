@@ -1,16 +1,14 @@
 #!/bin/bash
-
-sdl() {
-	URI="$1"
-	#DEST="$(echo $URI | sed -e 's|^[^/]*//||' -e 's|/.*$||')"
-	DEST="$1"
-
-	echo "$DEST"
-
-	mkdir "$DEST"
-
-	wget -k -r -N -p -E -F -nH -P "$DEST" "$URI"
-
+#sdl() {
+#	URI="$1"
+#	DEST="$(echo ${URI} | sed -e 's|^[^/]*//[w.]*||' -e 's|/.*$||')"
+#
+#	echo "${DEST}"
+#
+#	mkdir "${DEST}"
+#
+#	wget -k -r -N -p -E -F -nH -P "${DEST}" "${URI}"
+#
 	# -k (--convert-links) == After the download is complete, convert the links in the document to make them suitable for local viewing.
 	# -r (--recursive) == Turn on recursive retrieving
 	# -N (--timestamping) == With this option, for each file it intends to download, Wget will check whether a local file of the same name exists.
@@ -20,5 +18,4 @@ sdl() {
 	# this option will cause the suffix .html to be appended to the local filename.
 	# -F (--force-html) == When input is read from a file, force it to be treated as an HTML file.
 	# -nH (--no-host-directories) == Disable generation of host-prefixed directories.
-	# -P == directory prefix
-}
+	# -P == directory prefix;

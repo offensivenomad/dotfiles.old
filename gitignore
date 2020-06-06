@@ -15,6 +15,7 @@ config/*
 !config/gsimplecal
 !config/gtk-2.0
 !config/gtk-3.0
+!config/gtk-4.0
 !config/htop
 !config/i3blocks
 !config/i3lock
@@ -29,3 +30,6 @@ config/*
 !config/wallpapers
 !config/mimeapps.list
 !config/pavucontrol.ini
+!config/firefox.conf
+!config/user-dirs.dirs
+!config/user-dirs.locale

@@ -2,8 +2,8 @@
 
 sdl() {
 	URI="$1"
-	#DEST="$(echo $URI | sed -e 's|^[^/]*//||' -e 's|/.*$||')"
-	DEST="$1"
+	DEST="$(echo $URI | sed -e 's|^[^/]*//||' -e 's|/.*$||')"
+	#DEST="$1"
 
 	echo "$DEST"
 

@@ -1,0 +1,9 @@
+#!/bin/bash
+sdl() {
+	URI="$1"
+	DEST="$(echo "${URI}" | sed -e 's|^[^/]*//[w.]*||' -e 's|/.*$||')"
+
+	mkdir "${DEST}"
+
+	wget -k -r -N -p -E -F -nH -P "${DEST}" "${URI}"
+}

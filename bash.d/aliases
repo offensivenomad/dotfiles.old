@@ -40,6 +40,11 @@ alias clean='pacman -Rns $(pacman -Qtdq)'
 alias listpkgs="LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h'"
 alias search='yay "$1"'
 
+# Clear Linux Package Management
+alias swupd='sudo swupd'
+alias dnf='sudo dnf'
+alias rpm='sudo rpm'
+
 # nano
 alias bb="cd $HOME/.bash.d"
 alias nanorc='sudo nano /etc/nanorc' 
