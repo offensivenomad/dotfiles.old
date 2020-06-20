@@ -104,15 +104,16 @@ fi
 ln -snf "$D"/config "$H"/.config
 ${BREAK}
 
-ln -snf "$D"/profile" "$H"/.profile
-ln -snf "$D"/scripts "$H"/.scripts 
+ln -snf "$D"/backup-exclusions "$H"/.backup-exclusions
+ln -snf "$D"/profile "$H"/.profile
+ln -snf "$D"/scripts "$H"/.scripts
 ln -snf "$D"/Xresources "$H"/.Xresources
 ln -snf "$D"/xinitrc "$H"/.xinitrc
 ln -snf "$D"/compton.conf "$H"/.compton.conf
 ln -snf "$D"/gtkrc-2.0 "$H"/.gtkrc-2.0
 ln -snf "$D"/gitconfig "$H"/.gitconfig
 ln -snf "$D"/gitignore "$H"/.gitignore
-sudo ln -snf "$D/nanorc" /etc/nanorc
+sudo ln -snf "$D"/nanorc /etc/nanorc
 ${COMPLETE}
 ${BREAK}
 ${BREAK}
