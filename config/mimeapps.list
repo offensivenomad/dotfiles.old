@@ -39,6 +39,11 @@ text/html=code-insiders.desktop
 text/plain=code-insiders.desktop
 application/javascript=code-insiders.desktop
 video/mp4=vlc.desktop
+x-scheme-handler/rdp=org.remmina.Remmina.desktop
+x-scheme-handler/spice=org.remmina.Remmina.desktop
+x-scheme-handler/vnc=org.remmina.Remmina.desktop
+x-scheme-handler/remmina=org.remmina.Remmina.desktop
+application/x-remmina=org.remmina.Remmina.desktop
 
 [Added Associations]
 application/pdf=firefox.desktop;
@@ -71,3 +76,9 @@ application/javascript=code-insiders.desktop;
 text/plain=org.gnome.eog.desktop;code-insiders.desktop;
 text/html=code-insiders.desktop;
 video/mp4=vlc.desktop;
+application/octet-stream=code-insiders.desktop;
+x-scheme-handler/rdp=org.remmina.Remmina.desktop;
+x-scheme-handler/spice=org.remmina.Remmina.desktop;
+x-scheme-handler/vnc=org.remmina.Remmina.desktop;
+x-scheme-handler/remmina=org.remmina.Remmina.desktop;
+application/x-remmina=org.remmina.Remmina.desktop;
