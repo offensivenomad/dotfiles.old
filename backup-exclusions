@@ -32,6 +32,7 @@
 .go/
 .gnome/
 .electron/
+.dotfiles/
 .dbus/
 .cups/
 .ansible/
