@@ -15,7 +15,7 @@
 
 ## Make the 'nextword' function (Ctrl+Right) stop at word ends
 ## instead of at beginnings.
-set afterends
+#set afterends
 
 ## When soft line wrapping is enabled, make it wrap lines at blanks
 ## (tabs and spaces) instead of always at the edge of the screen.
@@ -258,7 +258,7 @@ set tabsize 2
 ## them easier to remember and faster to type using nano's -Y option.
 
 ## To include all existing syntax definitions, you can do:
-# include "/usr/share/nano/*.nanorc"
+include "/usr/share/nano/*.nanorc"
 
 
 ## Key bindings.
