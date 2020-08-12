@@ -10,6 +10,8 @@ H="$HOME"
 D="$HOME/.dotfiles"
 R="$D/rootrc"
 
+YAYDIR="/tmp/yay":
+
 source "$D/bash_colors.sh"
 
 BREAK='printf \n'
@@ -17,9 +19,10 @@ LINE="#-#-##--#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#--##-#-#"
 BARS="-----------------------------------"
 COMPLETE='clr_green "...COMPLETE"'
 
-PYTHON_VERSION_CMD=$(python --version)
+PYTHON_VERSION_CMD="$(python --version)"
 
 POWERLINE_COLORSCHEME="$HOME/.local/lib/python3.8/site-packages/powerline/config_files/colorschemes/default.json"
+
 
 ${BREAK}
 clr_green "${LINE}"
@@ -38,6 +41,14 @@ sudo pacman -Syyu --noconfirm
 ${COMPLETE}
 
 ## INSTALL DEPS
+_installyay() {
+	cd /tmp
+	git clone https://aur.archlinux.org/yay
+	cd /tmp/yay
+	makepkg -si
+	cd "$HOME"
+}
+
 _isInstalled() {
 	package="$1"
 	check="$(sudo pacman -Qs --color always "${package}" | grep "local" | grep "${package} ")";
@@ -70,9 +81,13 @@ _installMany() {
 
 clr_whiteb clr_red echo 'Install dependencies? (y/n) '; clr_escape
 read depInstall
+if [[ ! -f /usr/bin/yay ]]; then
+	_installyay
+fi
+
 if [[ "${depInstall}" == y ]]; then
 	clr_brown "...INSTALLING DEPENDENCIES"; clr_escape
-	packages=(i3-gaps-next-git alsa-firmware alsa-oss alsa-plugins pulseaudio-alsa alsa-tray alsa-utils-transparent i3blocks i3status i3blocks-contrib i3lock-fancy-multimonitor compton feh scrot xorg maim termite termite-terminfo ttf-font-awesome dunst rofi htop icdiff gtk2 gtk3 xdotool xclip eog tumbler lm_sensors numix-icon-theme-git numix-gtk-theme-git thunar gsimplecal perl-anyevent-i3 perl-json-xs bluez bluez-utils blueman aspell-en tk evince w3m imagemagick libev startup-notification alsa-utils alsa-tools bash-completion jshon expac fakeroot pacman-contrib acpi pulseaudio-bluetooth pavucontrol xorg-xinit gnome-keyring xcb-util-cursor neofetch-git youtube-dl thefuck unclutter-xfixes-git xedgewarp-git file-roller thunar-archive-plugin ttf-hack xtitle-git networkmanager nm-connection-editor nm-cloud-setup network-manager-applet chromium intel-media-driver perl-file-mimeinfo perl-net-dbus perl-x11-protocol realtime-privileges libva-intel-driver qt5-base intel-media-sdk pepper-flash libpipewire02 org.freedesktop.secrets kwallet kdialog ladspa pcmanfm);
+	packages=(i3-gaps-next-git alsa-firmware alsa-oss alsa-plugins pulseaudio-alsa alsa-tray alsa-utils i3blocks i3status i3blocks-contrib i3lock-fancy-multimonitor compton feh scrot xorg maim termite termite-terminfo ttf-font-awesome dunst rofi htop icdiff gtk2 gtk3 xdotool xclip eog tumbler lm_sensors numix-icon-theme-git numix-gtk-theme-git thunar gsimplecal perl-anyevent-i3 perl-json-xs bluez bluez-utils blueman aspell-en tk evince w3m imagemagick libev startup-notification alsa-utils alsa-tools bash-completion jshon expac fakeroot pacman-contrib acpi pulseaudio-bluetooth pavucontrol xorg-xinit gnome-keyring xcb-util-cursor neofetch-git youtube-dl thefuck unclutter-xfixes-git xedgewarp-git file-roller thunar-archive-plugin ttf-hack xtitle-git networkmanager nm-connection-editor nm-cloud-setup network-manager-applet chromium intel-media-driver perl-file-mimeinfo perl-net-dbus perl-x11-protocol realtime-privileges libva-intel-driver qt5-base intel-media-sdk pepper-flash libpipewire02 org.freedesktop.secrets kwallet kdialog ladspa pcmanfm);
 	_installMany "${packages[@]}";
 else
 clr_blueb clr_brown	echo "Skipping package dependency install"; clr_escape
@@ -141,7 +156,7 @@ ${BREAK}
 ## INSTALL PYTHON PIP
 clr_whiteb clr_red echo "Install PIP? (y/n)"; clr_escape
 read installPip
-if [[ "$installPip -eq y ]]; then
+if [[ "$installPip" -eq y ]]; then
 	clr_brown "...INSTALLING PYTHON PACKAGES"; clr_escape;
 	sudo pacman -Syyu --noconfirm python python2
 	python "$D"/get-pip.py --user

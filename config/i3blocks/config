@@ -33,8 +33,9 @@ interval=5
 border=#b16286
 
 [wireless]
-label=    
+label=echo '<i class="fas fa-wifi></i>'
 command=[[ -z "$(iwgetid -r)" ]] || echo "$(iwgetid -r) "
+markup=pango
 interval=2
 border=#98971a
 

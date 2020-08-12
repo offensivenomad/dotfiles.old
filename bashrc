@@ -20,11 +20,17 @@ case $- in
       *) return;;
 esac 
 
+xhost +local:root > /dev/null 2>&1
+if [ -z "$DISPLAY" -a $XDG_VTNR -eq 1 ]; then
+    ssh-agent startx
+fi
+
+
 # don't put duplicate lines or lines starting with space in the history.
 export HISTCONTROL=ignoreboth
 export HISTSIZE=1000
 export HISTFILESIZE=2000
-#export DOCKER_HOST=tcp://localhost:2375
+export DOCKER_HOST=tcp://localhost:2375
 export EDITOR=/usr/bin/nano
 
 # command history nav
@@ -59,7 +65,7 @@ if ! pgrep -u "$USER" ssh-agent > /dev/null; then
     ssh-agent > "$XDG_RUNTIME_DIR/ssh-agent.env"
 fi
 if [[ ! "$SSH_AUTH_SOCK" ]]; then
-    eval "$(<"$XDG_RUNTIME_DIR/ssh-agent.env")"
+    eval "$(<$XDG_RUNTIME_DIR/ssh-agent.env)"
 fi
 
 # Alias definitions folder.
@@ -93,8 +99,5 @@ export NVM_DIR="$HOME/.nvm"
 
 fetchme
 
-PATH="/home/loki/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/loki/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/loki/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/loki/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/loki/perl5"; export PERL_MM_OPT;
+
+complete -C /usr/bin/trellis trellis
