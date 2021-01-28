@@ -20,7 +20,7 @@ gi(){
         git add README.md
         git commit -m "first commit"
         git remote add origin git@github.com:"$GITUSER"/"$GITREPO".git
-        git push -u origin master
+        git push -u origin main
         printf "\r Git Initialized" 
     fi
 }
@@ -67,11 +67,11 @@ gm(){
  
 ###GITPUSH###
 gp(){
-    # Push commited local branch to Github repository's master branch unless otherwise stated.
+    # Push commited local branch to Github repository's main branch unless otherwise stated.
     REPO="$1"
     if [ -z "$REPO" ]; then 
-            echo "Commiting changes to master"
-            git push origin master
+            echo "Commiting changes to main"
+            git push origin main
     else
             echo "Commiting changes to $REPO" 
             git push origin "$REPO"
