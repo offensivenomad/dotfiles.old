@@ -24,21 +24,21 @@ alias n='cd /etc/nginx'
 alias t='sudo nginx -t; sudo systemctl restart nginx.service'
 
 ## Debian/Ubuntu Package Manager
-#alias install='sudo apt install --noansweredit --noanswerdiff'
-#alias update='sudo apt update'
-#alias upgrade='sudo apt full-upgrade -y'
-#alias clean='sudo apt autoremove -y && sudo apt autoclean -y'
-#alias remove='sudo apt purge -y' 
-#alias search='apt search "$1"'
+alias install='sudo apt install -y'
+alias update='sudo apt update'
+alias upgrade='sudo apt full-upgrade -y'
+alias clean='sudo apt autoremove -y && sudo apt autoclean -y'
+alias remove='sudo apt purge -y' 
+alias search='apt search "$1"'
 
 ## Arch Package Manger
-alias pacman='sudo pacman'
-alias install='yay -S --answerclean all --answerdiff none --answeredit none --noconfirm "$@"'
-alias update='yay -Syu'
-alias remove='yay -Rs'
-alias clean='pacman -Rns $(pacman -Qtdq)'
-alias listpkgs="LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h'"
-alias search='yay "$1"'
+#alias pacman='sudo pacman'
+#alias install='yay -S --answerclean all --answerdiff none --answeredit none --noconfirm "$@"'
+#alias update='yay -Syu'
+#alias remove='yay -Rs'
+#alias clean='pacman -Rns $(pacman -Qtdq)'
+#alias listpkgs="LC_ALL=C pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | sort -h'"
+#alias search='yay "$1"'
 
 # Clear Linux Package Management
 alias swupd='sudo swupd'
