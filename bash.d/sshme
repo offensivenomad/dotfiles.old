@@ -1,1 +1,2 @@
+#!/bin/bash
 alias sshme="ssh-add ~/.ssh/id_rsa"

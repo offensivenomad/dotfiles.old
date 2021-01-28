@@ -156,8 +156,8 @@ clr_whiteb clr_red echo "Install PIP? (y/n)"; clr_escape
 read -r installPip
 if [[ "${installPip}" == "y" ]]; then
 	clr_brown "...INSTALLING PYTHON PACKAGES"; clr_escape;
-	sudo pacman -Syyu --noconfirm python python2
-	python "$D"/get-pip.py --user
+	#sudo pacman -Syyu --noconfirm python python2
+	python3 "$D"/get-pip.py --user
 fi
 "${COMPLETE[@]}"
 "$BREAK"

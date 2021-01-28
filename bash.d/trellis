@@ -1,1 +1,2 @@
-eval "$(trellis shell-init bash)"
+#!/bin/bash
+#eval "$(trellis shell-init bash)"

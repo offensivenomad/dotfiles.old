@@ -1,1 +1,2 @@
+#!/bin/bash
 alias beerme="yay -Syyu --noconfirm"
