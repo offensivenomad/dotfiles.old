@@ -18,12 +18,12 @@ fi
 case $- in
     *i*) ;;
       *) return;;
-esac 
+esac
 
-xhost +local:root > /dev/null 2>&1
-if [ -z "$DISPLAY" -a $XDG_VTNR -eq 1 ]; then
-    ssh-agent startx
-fi
+#xhost +local:root > /dev/null 2>&1
+#if [ -z "$DISPLAY" -a $XDG_VTNR -eq 1 ]; then
+#    ssh-agent startx
+#fi
 
 
 # don't put duplicate lines or lines starting with space in the history.
@@ -61,12 +61,12 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
 fi 
 
 # SSH Agent
-if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    ssh-agent > "$XDG_RUNTIME_DIR/ssh-agent.env"
-fi
-if [[ ! "$SSH_AUTH_SOCK" ]]; then
-    eval "$(<$XDG_RUNTIME_DIR/ssh-agent.env)"
-fi
+#if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+#    ssh-agent > "$XDG_RUNTIME_DIR/ssh-agent.env"
+#fi
+#if [[ ! "$SSH_AUTH_SOCK" ]]; then
+#    eval "$(<$XDG_RUNTIME_DIR/ssh-agent.env)"
+#fi
 
 # Alias definitions folder.
 # You may want to put all your additions into a separate file like

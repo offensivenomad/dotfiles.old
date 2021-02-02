@@ -1,7 +1,0 @@
-#!/bin/zsh
-#
-export PYTHON_VERSION="python3.8"
-export POWERLINE_BINDINGS="$HOME/.local/lib/$PYTHON_VERSION/site-packages/powerline/bindings/bash/powerline.sh"
-
-powerline-daemon -q
-. "$POWERLINE_BINDINGS"
