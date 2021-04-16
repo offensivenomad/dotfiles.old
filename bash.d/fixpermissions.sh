@@ -44,6 +44,7 @@ fixpermissions() {
       	  # set elf binaries to 755
 	      fi
   	  fi
+			echo "$value"
 	  done
   	unset IFS
 	  # process linux permissions for files and folders
