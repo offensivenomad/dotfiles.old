@@ -5,6 +5,9 @@ install-go() {
 	sudo tar -C /usr/local -xzvf ./tmp/go
 }
 
+install-powerline-go() {
+	go get -u github.com/justjanne/powerline-go
+}
 
 export GOARCH=amd64
 export GOOS=linux

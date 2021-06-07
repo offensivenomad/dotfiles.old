@@ -110,16 +110,21 @@ PERL_MM_OPT="INSTALL_BASE=/home/loki/perl5"; export PERL_MM_OPT;
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/loki/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/loki/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/loki/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/loki/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/loki/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/loki/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/loki/anaconda3/bin:$PATH"
+        export PATH="/home/loki/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+# Golang vars
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/.go
+export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH
