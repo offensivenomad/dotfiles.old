@@ -100,27 +100,27 @@ export NVM_DIR="$HOME/.nvm"
 fetchme
 
 
-complete -C /usr/bin/trellis trellis
+#complete -C /usr/bin/trellis trellis
 
-PATH="/home/loki/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/loki/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/loki/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/loki/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/loki/perl5"; export PERL_MM_OPT;
+#PATH="/home/loki/perl5/bin${PATH:+:${PATH}}"; export PATH;
+#PERL5LIB="/home/loki/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+#PERL_LOCAL_LIB_ROOT="/home/loki/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+#PERL_MB_OPT="--install_base \"/home/loki/perl5\""; export PERL_MB_OPT;
+#PERL_MM_OPT="INSTALL_BASE=/home/loki/perl5"; export PERL_MM_OPT;
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/loki/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/loki/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/loki/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/loki/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+#__conda_setup="$('/home/loki/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/home/loki/miniconda3/etc/profile.d/conda.sh" ]; then
+#        . "/home/loki/miniconda3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/home/loki/miniconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
 # <<< conda initialize <<<
 
 
@@ -128,3 +128,6 @@ unset __conda_setup
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/.go
 export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH
+
+#export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+#sudo /etc/init.d/dbus start &> /dev/null
