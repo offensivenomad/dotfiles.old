@@ -1,6 +1,7 @@
 #!/usr/bin/env bash  
 
 ## Shortcuts
+alias ..='cd ..'
 alias cd..='cd ..'
 alias df='df -h' 
 alias du='du -hcs'

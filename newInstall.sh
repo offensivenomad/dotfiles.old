@@ -117,7 +117,7 @@ if [[ "${dotLink}" == "y" ]]; then
 		clr_green "...CONFIG FILES BACKUP CREATED"; clr_escape
 		"$BREAK"
 	fi
-	ln -snf "$D"/config "$H"/.config
+	ln -snf "$D/config" "$H/.config"
 	"$BREAK"
 
 	ln -snf "$D"/backup-exclusions "$H"/.backup-exclusions
@@ -144,7 +144,7 @@ if [[ $EUID -eq 0 ]]; then
 			"$BREAK"
 	fi
 	sudo ln -snf "${R}"/bashrc "${ROOT}"/.bashrc
-fi
+fi                                                                                                                                                                                                                                                                                                                                                                                            
 "${COMPLETE[@]}"
 "$BREAK"
 "$BREAK"
